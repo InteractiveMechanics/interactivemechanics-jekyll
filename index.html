@@ -1,0 +1,58 @@
+---
+layout:     default
+---
+
+<section class="hero">
+    <div class="video-container">
+        <video width="100%" height="auto" poster="{{ node.url | prepend: site.baseurl }}/images/video/homepage_video.jpg" autoplay loop>
+            <source src="{{ node.url | prepend: site.baseurl }}/images/video/homepage_video.mp4" type="video/mp4">
+            <source src="{{ node.url | prepend: site.baseurl }}/images/video/homepage_video.webm" type="video/webm">
+        </video>
+    </div>
+    <div class="container">
+        <h1><strong>Beautiful design</strong> meets <strong>cutting-edge technology</strong> for arts, culture, education, and care organizations.</h1>
+        <a href="/about-us" class="btn btn-default btn-white">Read our story {% include icons/icon_arrow_right.html %}</a>
+        <a href="/work" class="btn btn-default btn-white">Explore our work {% include icons/icon_arrow_right.html %}</a>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h2 class="text-center"><strong>Interactive Mechanics</strong> is an interactive design firm that partners with cultural, educational, and healthcare organizations on design, development, user experience, and strategy.</h2>
+                <p>
+                    Our team builds beautiful, user-centered digital projects for web, mobile, and in-gallery exhibits that empower, educate, and inspire your audiences. Whether we're working with you to design a new website, craft a digital strategy, or develop an interactive exhibit, we approach every project with openness, creativity, and empathy. 
+                    <a href="/about-us">Learn more about us &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services">
+    <div class="container">
+        <h1>Our services <small><a href="/services">Read about what we do &raquo;</a></small></h1>
+        <div class="row">
+            {% for service in site.data.focusareas %}
+                <div class="col-md-3">
+                    {% assign icon = service.image %}
+                    <div class="thumb"><img src="{{ icon }}" alt="{{ service.title }}" /></div>
+                    <h5>{{ service.title }}</h5>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="gray">
+    <div class="container">
+        <h1>Recent News</h1>
+        <div class="row">
+            {% for post in site.posts %}
+                {% if forloop.index < 4 %}
+                    {% include inc_article.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container text-center">
+        <a href="/news" class="btn btn-default text-center">Read all news {% include icons/icon_arrow_right.html %}</a>
+    </div>
+</section>

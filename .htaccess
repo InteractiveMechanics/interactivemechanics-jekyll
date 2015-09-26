@@ -1,0 +1,20 @@
+AddType video/mp4 .mp4 .m4v
+AddType video/ogg .ogv
+AddType video/webm .webm
+
+Redirect 301 /what-we-do/ http://interactivemechanics.com/about-us/
+Redirect 301 /case-studies/ http://interactivemechanics.com/work/
+Redirect 301 /blog/ http://interactivemechanics.com/news/
+Redirect 301 /workshops/ http://interactivemechanics.com/services/
+
+Redirect 301 /blog/remembering-lincoln-150-years-later/ http://interactivemechanics.com/news/2015/03/remembering-lincoln/
+Redirect 301 /blog/digital-projects-101-at-philly-tech-week-2015/ http://interactivemechanics.com/news/2015/02/digital-projects-for-arts-culture/
+Redirect 301 /blog/highlights-from-barcamp-2014/ http://interactivemechanics.com/news/2014/12/highlights-from-barcamp/
+Redirect 301 /blog/meet-christina-design-development-apprentice/ http://interactivemechanics.com/news/2014/12/meet-christina/
+Redirect 301 /blog/see-you-at-museums-and-the-web-2015/ http://interactivemechanics.com/news/2014/12/see-you-at-museums-web/
+Redirect 301 /blog/page-templates-with-omeka-simple-pages/ http://interactivemechanics.com/news/2014/12/page-templates-omeka/
+Redirect 301 /blog/fall-updates-from-interactive-mechanics/ http://interactivemechanics.com/news/2014/11/fall-updates/
+Redirect 301 /blog/jekyll-versus-the-cms-building-the-new-grand-round-table-website/ http://interactivemechanics.com/news/2014/10/jekyll-vs-the-cms/
+Redirect 301 /blog/the-basics-of-building-omeka-themes/ http://interactivemechanics.com/news/2014/09/basics-building-omeka-themes/
+Redirect 301 /blog/mobile-devices-and-digital-humanities/ http://interactivemechanics.com/news/2012/12/mobile-devices-digital-humanities/
+Redirect 301 /blog/making-more-of-personas-scenarios/ http://interactivemechanics.com/news/2012/11/making-more-personas/

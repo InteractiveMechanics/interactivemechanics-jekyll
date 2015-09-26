@@ -1,0 +1,133 @@
+---
+layout:     default
+---
+
+<div class="case-study">
+    <section class="page-title {% unless page.about %}extra-padding{% endunless %}">
+        <div class="container">
+            <h5>
+                {% for service in page.services %}
+                    {{ service }}
+                    {% if forloop.rindex > 1 %}
+                        <span class="divider"></span>
+                    {% endif %}
+                {% endfor %}
+            </h5>
+            <h1>{{ page.title }}</h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>{{ page.summary }} {% include icons/icon_endnote.html %}</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="callout">
+                        {% if page.client.logo %}<img src="{{ page.client.logo }}" alt="{{ page.client.name }}" />{% endif %}
+                        {% if page.client.link %}
+                            <div class="callout-divider"></div>
+                            <a href="{{ page.client.link.url }}" class="btn btn-default" target="_blank">{{ page.client.link.title }} {% include icons/icon_arrow_right.html %}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    {% if page.about %}
+        <section class="about-project extra-padding" style="background-image: url('{{ page.about.image }}');">
+            <div class="overlay" style="background-color: #{{ page.color }};"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                        <h5>{{ page.about.title }}</h5>
+                        <p>{{ page.about.body }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+    
+    {% if page.process %}
+        <section class="process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div id="process-carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                {% for image in page.process.images %}
+                                    <li data-target="#process-carousel" 
+                                        data-slide-to="{{ forloop.index0 }}" 
+                                        {% if forloop.index0 == 0 %}class="active"{% endif %}></li>
+                                {% endfor %}
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                {% for image in page.process.images %}
+                                    <div class="item {% if forloop.index0 == 0 %}active{% endif %}">
+                                        <img src="{{ image.image }}" alt="{{ image.alt }}" />
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <h5>{{ page.process.title }}</h5>
+                        {{ page.process.body | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+    
+    {% if page.outcome %}
+        <section class="outcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                        <h5>{{ page.outcome.title }}</h5>
+                        <p>{{ page.outcome.body }} {% include icons/icon_endnote.html %}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+</div>
+
+<section class="gray">
+    <div class="container">
+        <div class="footer-callout">
+            <div class="footer-metadata">
+                {% if page.client.link %}
+                    <label>Website:</label>
+                    <p><a href="{{ page.client.link.url }}" target="_blank">{{ page.client.link.url }}</a></p>
+                {% endif %}
+                {% if page.services %}
+                    <label>Services:</label>
+                    <p>{% for service in page.services %}{{ service }}{% if forloop.rindex > 1 %}<span class="divider"></span>{% endif %}{% endfor %}</p>
+                {% endif %}
+                {% if page.client.sector %}
+                    <label>Sector:</label>
+                    <p>{{ page.client.sector }}</p>
+                {% endif %}
+                {% if page.technology %}
+                    <label>Technology:</label>
+                    <p>{% for tech in page.technology %}{{ tech }}{% if forloop.rindex > 1 %}<span class="divider"></span>{% endif %}{% endfor %}</p>
+                {% endif %}
+            </div>
+            <div class="footer-contact">
+                <h2>Want to learn more? Contact us!</h2>
+                {% for staff in site.data.staff %}
+                    {% assign index = forloop.index | minus:1 %}
+                    {% if page.contact == site.data.staff[index].name %}
+                        {% assign person = site.data.staff[index] %}
+                        <a href="/contact">{% include inc_metadata.html %}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row">
+            {% for work in site.work %}
+                {% unless page.url == work.url %}
+                    {% assign project = work %}
+                    {% include inc_work.html %}
+                {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

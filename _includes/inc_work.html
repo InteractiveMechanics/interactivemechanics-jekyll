@@ -1,0 +1,17 @@
+<div class="col-md-4">
+    <a class="work" href="{{ project.url }}">
+        <img src="{{ project.thumb }}" />
+        <div class="overlay" style="background-color: #{{ project.color }};"></div>
+        <div class="work-container">
+            <h5>
+                {% for service in project.services %}
+                    {{ service }}
+                    {% if forloop.rindex > 1 %}
+                        <span class="divider"></span>
+                    {% endif %}
+                {% endfor %}
+            </h5>
+            <h2>{{ project.title }}</h2>
+        </div>
+    </a>
+</div>

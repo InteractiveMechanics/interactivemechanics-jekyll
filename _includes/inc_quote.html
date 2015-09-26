@@ -1,0 +1,9 @@
+{% if page.quote %}
+    <section class="quote blue">
+        <div class="container">
+            <h2>{{ page.quote.body | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+            <h5 class="quote-attribution">{{ page.quote.name }}</h5>
+            <h5 class="quote-title">{{ page.quote.title }}</h5>
+        </div>
+    </section>
+{% endif %}

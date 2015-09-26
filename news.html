@@ -1,0 +1,26 @@
+---
+layout:         default
+title:          News
+permalink:      news/
+weight:         4
+in_nav:         true
+--- 
+
+<section class="page-title">
+    <div class="container">
+        <h1>News & Insights</h1>
+        <ul id="news-filters" class="list-inline">
+            <li class="active"><a data-category-filter="all">All News</a></li>
+            {% for tag in site.categories %}
+                <li><a data-category-filter="{{ tag[0] | replace:' ','-' }}">{{ tag[0] | capitalize }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="container news">
+        <div class="row">
+            {% for post in site.posts %}
+                {% include inc_article.html %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

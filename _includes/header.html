@@ -1,0 +1,16 @@
+<header>
+    <div class="container">
+        <a class="brand" href="/">{% include icons/icon_logo.html %}</a>
+        <div class="pull-right">
+            <ul class="list-inline hidden-xs">
+                {% assign sorted_pages = site.pages | sort:"weight" %}
+                {% for node in sorted_pages %}
+                    {% if node.in_nav == true %}
+                        <li {% if page.url contains node.url %}class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <a class="mobile-menu">{% include icons/icon_menu.html %}</a>
+</header>

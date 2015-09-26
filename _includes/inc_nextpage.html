@@ -1,0 +1,16 @@
+{% if page.nextpage %}
+    <section class="nextpage">
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <h5 class="gold-text">{{ page.nextpage.title }}</h5>
+                <p>{{ page.nextpage.body }}</p>
+                <div class="text-center">
+                    <a href="/{{ page.nextpage.btn_link }}" class="btn btn-default">
+                        {{ page.nextpage.btn_text }}
+                        {% include icons/icon_arrow_right.html %}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

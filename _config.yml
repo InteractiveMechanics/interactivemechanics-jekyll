@@ -1,0 +1,19 @@
+# Site settings
+title:          Interactive Mechanics
+email:          hello@interactivemechanics.com
+description:    Interactive user experience design & development building beautiful digital projects
+
+
+# Collections
+collections:
+  work:
+    output:     true
+    permalink:  /work/:path/
+
+# Build settings
+#url:           "http://localhost:4000"
+url:            "http://interactivemechanics.com"
+permalink:      /news/:year/:month/:title/
+paginate_path:  /page:num
+markdown:       kramdown
+highlighter:    pygments

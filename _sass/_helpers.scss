@@ -1,0 +1,23 @@
+.gold-text { color: $gold; }
+.blue-text { color: $darkblue; }
+
+.divider {
+    padding: 0 10px;
+    
+    &:before {
+        content: '/';
+        display: inline-block;
+        width: auto;
+        height: auto;
+        color: $lightgray;
+    }
+}
+
+.endnote {
+    position: relative;
+    top: -8px;
+    margin-left: 10px;
+}
+.extra-padding {
+    padding-bottom: 140px;
+}

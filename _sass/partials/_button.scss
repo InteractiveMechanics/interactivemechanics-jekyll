@@ -1,0 +1,83 @@
+.btn {
+    padding: 16px 24px 16px 24px;
+    font-size: 1.6rem;
+    background: transparent;
+    border-radius: 0;
+    border: 3px solid $darkblue;
+    color: $darkblue;
+    transition: $transition;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+
+    @media screen and #{$screen-ltmd} {
+        width: 100%;
+        text-align: left;
+    }
+
+    svg {
+        height: 16px;
+        width: auto;
+        position: relative;
+        top: 2px;
+        margin-left: 10px;
+        left: 0;
+        transition: $transition;
+
+        @media screen and #{$screen-ltmd} {
+            float: right;
+        }
+
+        polygon { 
+            transition: $transition;
+            fill: $darkblue; 
+        }
+        line { 
+            transition: $transition;
+            stroke: $darkblue; 
+        }
+    }
+
+    &:hover, &:focus, &:active, &:active:hover {
+        border: 3px solid darken($darkblue, 10%);
+        background: transparent;
+        color: darken($darkblue, 10%);
+
+        svg {
+            left: 5px;
+
+            polygon { fill: darken($darkblue, 10%); }
+            line { stroke: darken($darkblue, 10%); }
+        }
+    }
+
+    & + .btn {
+        margin-left: 15px;
+    }
+
+    &.btn-white {
+        border: 3px solid white;
+        color: white;
+        opacity: 1;
+    
+        svg {    
+            polygon { 
+                fill: white; 
+            }
+            line { 
+                stroke: white; 
+            }
+        }
+    
+        &:hover, &:focus, &:active, &:active:hover {
+            border: 3px solid white;
+            color: white;
+            opacity: 0.65;
+    
+            svg {
+                polygon { fill: white; }
+                line { stroke: white; }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+---
+layout:         page
+title:          Services
+permalink:      services/
+weight:         2
+in_nav:         true
+
+summary: |
+    We build sophisticated projects by offering a range of services from digital design and development to research and user testing. For us, great user experience is the core of every one of our projects.
+
+nextpage:
+    title:      Our Work
+    body: |
+        We're proud of the work we produce with our clients and partners. We set ourselves apart through our enthusiasm, sensitivity, and some darn good design.
+    btn_text:   Read about our projects
+    btn_link:   work
+
+---
+
+<div class="services">
+    {% for focus in site.data.focusareas %}
+        <section class="{% cycle 'odd', 'even' %} focus-area">
+            <div class="left" style="background-image: url({{ focus.image }});"></div>
+            <div class="right">
+                <h5>{{ focus.title }}</h5>
+                <p>{{ focus.body }}</p>
+                {% if focus.link %}
+                    {% if focus.title == 'Workshops & Training' %}
+                        <a href="{{ focus.link }}" class="btn btn-default">Sign-up for updates {% include icons/icon_arrow_right.html %}</a>
+                    {% else %}
+                        <a href="/work/{{ focus.link }}" class="btn btn-default">See a case study {% include icons/icon_arrow_right.html %}</a>
+                    {% endif %}
+                {% endif %}
+            </div>
+            <div class="clearfix"></div>
+        </section>
+    {% endfor %}
+    
+    <section class="process">
+        <div class="container">
+            <h1>Our Process</h1>
+            <div class="row">
+                {% for service in site.data.services %}
+                    <div class="col-md-4 service">
+                        {% assign icon = service.icon %}
+                        {% include {{ icon }} %}
+                        <h2>{{ service.title }}</h2>
+                        <p>{{ service.body }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>

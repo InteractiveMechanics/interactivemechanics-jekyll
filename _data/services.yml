@@ -1,0 +1,29 @@
+- title:        Strategy & Interpretation
+  icon:         "icons/icon_strategy.html"
+  body:         "We'll work with you to design cohesive strategies to tackle any problem, from managing and growing your 
+                digital presence to understanding and refining your educational and interpretive approach."
+
+- title:        User Analysis & Research
+  icon:         "icons/icon_research.html"
+  body:         "A solid understanding of your audiences is the foundation for every project, big or small. 
+                We'll work with you to define your audiences, understand their needs, and ensure that we're designing projects tailored towards them."
+
+- title:        Digital Design & Content
+  icon:         "icons/icon_design.html"
+  body:         "We create beautiful designs and well-written, authentic content. We take an incremental approach to design so your 
+                organization can provide constructive feedback throughout the process."
+
+- title:        Interactive Development
+  icon:         "icons/icon_development.html"
+  body:         "We provide iterative full-stack development for web, mobile, and in-gallery interactive installations. 
+                We're well-versed in a wide range of technologies, from Drupal, WordPress, and Angular.js to Swift, Cinder, and the Microsoft Kinect SDK."
+
+- title:        Testing & Evaluation
+  icon:         "icons/icon_testing.html"
+  body:         "We integrate regular user testing into every project before, during and after launch. 
+                We'll work with you to create an evaluation plan and testing script, identify participants, and conduct the testing session."
+
+- title:        Documentation & Training
+  icon:         "icons/icon_workshops.html"
+  body:         "We ensure all of our projects are successful by providing detailed documentation, on-site or remote training, 
+                and an inclusive support agreement for ninety days following the launch."

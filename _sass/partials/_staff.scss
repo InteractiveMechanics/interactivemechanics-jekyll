@@ -1,0 +1,85 @@
+.staff {
+    padding: 0;
+    position: relative;
+    height: 451px;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    
+    a { color: $darkblue; }
+    img {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: auto;
+        height: 100%;
+    }
+    .staff-container {
+        width: 720px;
+        position: relative;
+        z-index: 5;
+        top: 70px;
+
+        @media screen and #{$screen-md} {
+            max-width: 600px;
+        }
+        @media screen and #{$screen-ltmd} {
+            top: 0;
+            bottom: 0;
+            left: 0 !important;
+            width: 100%;
+            background: rgba(255,255,255,0.85);
+            position: absolute;
+            padding: 30px;
+        }
+
+        h2 {
+            margin: 0;
+
+            small {
+                font-family: $sansserif;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 1.4rem;
+                margin-left: 12px;
+                color: $darkblue;
+
+                @media screen and #{$screen-ltmd} {
+                    display: block;
+                    margin: -5px 0 12px;
+                }
+            }
+        } 
+        p {
+            line-height: 2.1;
+
+            @media screen and #{$screen-md} {
+                font-size: 1.6rem;
+            }
+            @media screen and #{$screen-ltmd} {
+                font-size: 1.4rem;
+                line-height: 1.8;
+            }
+        }
+    }
+
+    &.odd {
+        img { 
+            left: 0;
+            
+            @media screen and #{$screen-md} { left: -50px; }
+        }
+        .staff-container { 
+            left: 40%; 
+        }
+    }
+    &.even {
+        img { 
+            right: 0;
+
+            @media screen and #{$screen-md} { right: -100px; }
+        }
+        .staff-container { 
+            left: 10%; 
+        }
+    }
+}

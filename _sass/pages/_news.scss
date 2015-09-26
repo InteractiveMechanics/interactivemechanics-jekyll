@@ -1,0 +1,97 @@
+#news-filters {
+    margin-bottom: 50px;
+    width: 100%;
+    border-bottom: 1px solid $lightgray;
+    margin-left: 0;
+
+    @media screen and #{$screen-ltmd} {
+        display: none;
+    }
+
+    li {
+        margin-right: 30px;
+        padding: 0;
+
+        &.active {
+            a { 
+                color: $gold; 
+                border-bottom: 3px solid $gold;
+                padding-bottom: 10px;
+                bottom: 10px;
+
+                &:hover { color: $gold; }
+            }
+        }
+
+        a {
+            font-family: $sansserif;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: 700;
+            color: $midgray;
+            line-height: 1.4;
+            cursor: pointer;
+            position: relative;
+            bottom: 10px;
+            border-bottom: 0px solid $lightgray;
+            transition: $transition;
+
+            &:hover {
+                color: $black;
+            }
+        }
+    }
+}
+
+.news {
+    .news-container {
+        opacity: 0;
+        display: none;
+        transition: $transition;
+
+        &.active {
+            opacity: 1;
+            display: block;
+        }
+    }
+}
+.post-title {
+    font-size: 5rem;
+}
+.post-meta {
+    color: $midgray;
+    margin-bottom: 15px;
+}
+.post-sidebar {
+    margin-top: 20px;
+}
+.post-content {
+    h3 {
+        margin-top: 50px;
+    }
+    img {
+        max-width: 100%;
+    }
+    p {
+        &:last-of-type:after {
+            content: '';
+            display: block;
+            background: url(../images/icon-endnote.svg) no-repeat;
+            width: 30px;
+            height: 13px;
+            margin-left: 15px;
+            display: inline-block;
+        }
+    }
+    ul {
+        margin-bottom: 30px;
+    
+        li {
+            font-size: 1.8rem;
+            font-weight: 300;
+            line-height: 1.8;
+            margin-bottom: 8px;
+            padding-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+---
+layout:     post
+title:      "See you at..."
+date:       2015-09-25
+author:     Amelia Longo
+category:   Community
+thumb:      "/images/uploads/museumnext-thumb.jpg"
+summary: |
+    We work hard at Interactive Mechanics, but we also take time to check out the exciting things happening in our industry and learn about the latest trends and big ideas. Every other month, we'll share some of the workshops, conferences, and events we’re looking forward to—[let us know if we’ll see you there](mailto:amelia@interactivemechanics.com)!
+
+---
+
+There’s a lot going on this fall, and I’m super excited to kick things off this weekend with MuseumNext’s first US conference. MuseumNext is focused on the future of museums, so you can expect top-notch technology talks, and this year’s theme is Building Inclusive Museums, so basically, everything I love in one place. Also it is IN TWO MUSEUMS. Check out my program highlights below. I’ll be hanging around till Monday afternoon if you’re in Indianapolis and want to chat - find me on twitter [@ameliaexmachina](https://twitter.com/ameliaexmachina)!
+
+![Join Amelia Longo at MuseumNext at the Indianapolis Museum of Art](/images/uploads/museumnext-ima.jpg)
+
+### MuseumNext: Amelia’s Picks
+
+##### [Leading Inclusion](http://www.museumnext.com/conference/session/leading-inclusion/)
+**Seema Rao**, Director, Intergenerational Learning, Cleveland Museum of Art<br/>
+*A call to arms empowering all of us to use technology as a tool of inclusion in the museums of the future.*
+I’ve definitely seen tech both help and hinder inclusivity, and I’m excited to get some tips and insights from Seema, whose background is a killer trifecta of Art History, User Experience Design, and Library Sciences.
+
+
+##### [The Born-Digital Art Institution](http://www.museumnext.com/conference/session/the-born-digital-art-institution/)
+**Zachary Kaplan**, Assistant Director, Rhizome<br/>
+*New models for what an art institution can be when it organizes itself with the internet at its core.*
+Zachary will talk about Rhizome and other internet-based art institutions. I’m super curious about similarities and differences in audiences (and audience building strategies) between internet-based and traditional museums.
+
+
+##### [Mining the Digital Landscape, Engaging Communities of Color](http://www.museumnext.com/conference/session/digitallandscape/)
+**Adrianne Russell**, Museum educator, literary artist and nonprofit consultant<br/>
+**Ravon Ruffin**, Co-Creator, Brown Girls Museum Blog<br/>
+*Exploring digital havens for marginalized black and brown communities and ways museums can engage them.*
+I love that Adrianne and Ravon will be discussing both what’s already existing (and often ignored) in marginalized communities, as well as ways for museums to truly engage them. I have a hunch there will be some applications for user experience as well.
+
+### Other Fall Event Picks
+
+Sep 25-26    | MuseumNext (Indianapolis)
+Sep 29       | MuseumCouncil’s Emerging, Expanding, and Entrepreneurial
+Sep 30       | La Salle University Art Museum Collage and Conflict Opening
+Oct 1-31     | Archives Month
+Oct 9        | 2015 PPA Partners in the Arts Project Stream Check Ceremony
+Oct 11-13    | Visitor Experience Conference
+Oct 15       | Free License with Shepard Fairey and Rich Miner
+Oct 16-24    | State of Young Philly
+Oct 21-23    | Mid-Atlantic Association of Museums Annual Meeting
+Oct 22       | Philly EdTech Lightning Talks
+Oct 26       | Greater Philadelphia Cultural Alliance Annual Member Meeting
+Nov 4-7      | Museum Computer Network 2015 (Minneapolis)
+Nov 16-17    | IMLS Focus Conference (New Orleans)

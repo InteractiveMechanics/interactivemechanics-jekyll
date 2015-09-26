@@ -1,0 +1,41 @@
+<footer>
+    <div class="with-love">
+        {% include icons/icon_logo.html %}
+        <h4>Lots of love from Philly.</h4>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2015 {{ site.title }}. All Rights Reserved.</p>
+        <div class="pull-right hidden-xs">
+            <ul class="list-inline">
+                <li><a href="https://twitter.com/InteractiveMech" target="_blank">@interactivemech</a></li>
+                <li><a href="mailto:hello@interactivemechanics.com" target="_blank">hello@interactivemechanics.com</a></li>
+                <li><a href="https://www.google.com/maps/place/CultureWorks+Greater+Philadelphia/@39.949346,-75.16295,17z/data=!3m1!4b1!4m2!3m1!1s0x89c6c62f7e747e03:0x7009a9bbce52d492" target="_blank">Directions</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<dialog id="nav-overlay" class="hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                <nav>
+                    {% assign sorted_pages = site.pages | sort:"weight" %}
+                    <ul>
+                    {% for node in sorted_pages %}
+                        {% if node.in_nav == true %}
+                            <li {% if page.url contains node.url %}class="active"{% endif %}>
+                                <a href="{{ node.url | prepend: site.baseurl }}">
+                                    {{ node.title }}
+                                    {% include icons/icon_arrow_right.html %}
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <a class="close">{% include icons/icon_menu.html %}</a>
+</dialog>

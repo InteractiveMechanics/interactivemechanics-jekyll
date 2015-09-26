@@ -1,0 +1,117 @@
+.footer-callout {
+    background: white;
+    margin-bottom: 50px;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    border: 1px solid $lightgray;
+    margin-top: -120px;
+
+    @media screen and #{$screen-ltmd} {
+        display: none;
+    }
+
+    h2 {
+        margin: 0 0 10px;
+    }
+    input[type="email"] {
+        width: 100%;
+        padding: 18px 22px;
+        height: 60px;
+    }
+
+    .footer-metadata {
+        display: inline-block;
+        width: 55%;
+        vertical-align: top;
+
+        label {
+            clear: both;
+            float: left;
+            margin: 0 0 15px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: $midgray;
+            line-height: 1.4;
+            width: 140px;
+        }
+        p {
+            float: left;
+            margin: 0 0 15px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: $black;
+            line-height: 1.4;
+            text-transform: uppercase;
+        }
+    }
+    .footer-contact {
+        border-left: 1px solid $lightgray;
+        display: inline-block;
+        width: 44%;
+        vertical-align: top;
+        padding: 30px;
+        margin: -30px 0;
+        
+        a { text-decoration: none; }
+
+        .metadata {
+            margin: 0;
+
+            h3 { color: $black; }
+        }
+    }
+}
+
+footer {
+    background: $black;
+    color: white;
+
+    .with-love {
+        text-align: center;
+        padding: 35px 0;
+
+        svg {
+            width: 30px;
+            height: auto;
+            margin-bottom: 10px;
+
+            path {
+                fill: white;
+            }
+        }
+        h4 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: $midgray;
+            margin: 0;
+        }
+    }
+    .copyright {
+        padding: 20px;
+        border-top: 1px solid $darkgray;
+        
+        @media screen and #{$screen-xs} {
+            text-align: center;
+        }
+
+        p,
+        a,
+        ul {
+            color: $midgray;
+            display: inline-block;
+            margin-bottom: 0;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        a {
+            color: #d1d3d4;
+            text-decoration: underline;
+            opacity: 1;
+            transition: $transition;
+            
+            &:hover, &:focus, &:active {
+                opacity: 0.65;
+            }
+        }
+    }
+}

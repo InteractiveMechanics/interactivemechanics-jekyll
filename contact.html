@@ -1,0 +1,81 @@
+---
+layout:         page
+title:          Contact
+permalink:      contact/
+weight:         5
+in_nav:         true
+
+summary: |
+    We're a small, close-knit group of designers, developers, and content specialists who strive to create exciting and engaging products. We've worked with some amazing clients, and we'd love to work with you too.
+
+callout:
+    title:      Stop by for coffee
+    body: |     
+        The Philadelphia Building ([map](https://www.google.com/maps/place/CultureWorks+Greater+Philadelphia/@39.949346,-75.16295,17z/data=!3m1!4b1!4m2!3m1!1s0x89c6c62f7e747e03:0x7009a9bbce52d492))   
+        1315 Walnut Street, Suite 320   
+        Philadelphia, PA 19107   
+
+---
+
+<section class="gold contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>New Business</h5>
+                <p>
+                    Amelia Longo
+                    <a href="mailto:amelia@interactivemechanics.com" target="_blank">amelia@interactivemechanics.com</a>
+                    <a href="tel:2151234567">215.123.4567</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Workshops & Talks</h5>
+                <p>
+                    Michael Tedeschi
+                    <a href="mailto:mike@interactivemechanics.com" target="_blank">mike@interactivemechanics.com</a>
+                    <a href="tel:7324036079">732.403.6079</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5>General Inquiries</h5>
+                <p>
+                    <a href="mailto:hello@interactivemechanics.com" target="_blank">hello@interactivemechanics.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <div class="alert alert-success hidden"><strong>Thanks for contacting us!</strong> Someone will reach out to you shortly.</div>
+                <div class="alert alert-danger hidden"><strong>Uh oh!</strong> Something went wrong. Reach out to us directly at hello@interactivemechanics.com!</div>
+                <form id="form" method="post" action="/contact.php">
+                    <label for="name">Full Name</label>
+                    <input class="form-control input-lg" type="text" name="name" id="name" placeholder="John Smith" />
+                
+                    <label for="email" required>Email Address *</label>
+                    <input class="form-control input-lg" type="text" name="email" id="email" placeholder="johnsmith@mycompany.com" />
+                
+                    <label for="topic">I'd like to talk about...</label>
+                    <select class="form-control input-lg" name="topic" id="topic">
+                        <option value="New Projects">       Our exciting new project</option>
+                        <option value="Partnerships">       Partnership opportunities</option>
+                        <option value="Careers">            Joining your team</option>
+                        <option value="General Inquiry">    Something else</option>
+                    </select>
+
+                    <label for="message">Message *</label>
+                    <textarea class="form-control input-lg" name="message" id="message" required></textarea>
+                
+                    <div id="recaptcha_div"></div>
+                    <div id="notice"></div>
+                    <div class="text-center">
+                        <button class="btn btn-default" type="submit">Get in touch {% include icons/icon_arrow_right.html %}</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

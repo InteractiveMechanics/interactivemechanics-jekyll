@@ -1,0 +1,78 @@
+---
+layout:         page
+title:          About us
+permalink:      about-us/
+weight:         1
+in_nav:         true
+
+summary: |
+    Interactive Mechanics was founded in 2012 with the mission to work on meaningful digital projects for arts & culture, educational institutions, nonprofits,         and care organizations. Our skilled team works on any type of digital project, from websites and mobile applications to interactive exhibits and digital and interpretive strategies.
+
+callout:
+    title:      What drives us
+    body: |
+        We work on projects that empower, educate, and inspire, and always bring honesty and authenticity to our projects.
+
+quote:
+    name:       Owen Henkel
+    title:      Director of Fund Development, Social Venture Fund
+    body: |
+        I've worked with dozens of developers and **Interactive Mechanics** was as **friendly, reliable, and on-point** as they come. They hit every project deadline and delivered an end product that **exceeded our expectations**.
+
+nextpage:
+    title:      Our Services
+    body: |
+        Our team offers a wide-range of services for any project. Looking to build a new website for your organization? Evaluate your existing digital media? Or create a new interactive kiosk in your museum? We're the partner you're looking for.
+    btn_text:   Explore our services
+    btn_link:   services
+
+---
+
+{% include inc_quote.html %}
+
+<section>
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <h5 class="gold-text">What sets us apart</h5>
+            <p>We're here to do beautiful work for great organizations&mdash;big and small.</p>
+
+            <h3>Our clients are partners</h3>
+            <p>We see our clients as friends and partners, and we strive to create long-term, successful relationships. We're known for our open, honest, and accessible communication.</p>
+            
+            <h3>We see the big picture</h3>
+            <p>We know that a digital project is just one part of your bigger vision. We bring a unique perspective to each project: beyond what's on our business cards, we're authors, humanists, educators, designers, strategists, technologists, and performers. We don't think of ourselves as a typical design and development shop, and we don't think of you as a typical client.</p>
+            
+            <h3>We want to make an impact</h3>
+            <p>We work with organizations that have a strong social or cultural mission&mdash;like-minded groups that put their users, visitors, and customers first. We believe in giving back by offering discounted services for nonprofit organizations, and volunteering with local and national groups like Girl Develop It, DreamIt Ventures, Corzo Center, and Coded by Kids.</p>
+        </div>
+    </div>
+</section>
+
+{% for staff in site.data.staff %}
+    <section class="staff {% cycle 'odd', 'even' %}">
+        <img src="{{ staff.image }}" alt="{{ staff.name }}, {{ staff.title }}" />
+        <div class="staff-container">
+            <h2>{{ staff.name }} <small>{{ staff.title }}</small></h2>
+            <p>
+                {{ staff.bio }}
+                {% if staff.twitter.url %} <a href="{{ staff.twitter.url }}" target="_blank">{{ staff.twitter.handle }}</a>{% endif %}
+            </p>
+        </div>
+    </section>
+{% endfor %}
+
+{% if site.data.partners %}
+    <section>
+        <div class="container">
+            <h2>Our partners & colleagues</h2>
+            <div class="row">
+            {% for partners in site.data.partners %}
+                <div class="col-md-4">
+                    {% assign person = partners %}
+                    {% include inc_metadata.html %}
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endif %}

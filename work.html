@@ -1,0 +1,36 @@
+---
+layout:         default
+title:          Our work
+permalink:      work/
+weight:         3
+in_nav:         true
+--- 
+
+<section class="page-title">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            {% for project in site.work %}
+                {% include inc_work.html %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="gray clients">
+    <div class="container">
+        <h2>Select Clients & Partners</h2>
+        <div class="row">
+            {% for clients in site.data.clients %}
+                <div class="col-md-4">
+                    <h5>{{ clients[1].title }}</h5>
+                    {% for org in clients[1].orgs %}
+                        <p>{{ org.name }}</p>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
