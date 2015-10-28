@@ -2,6 +2,7 @@
     date_default_timezone_set('America/New_York');
     require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 
+    $date = date("F j, Y, g:i a");
     $mail = new PHPMailer;
     
     $mail->isSMTP();                                      // Set mailer to use SMTP
@@ -19,7 +20,7 @@
     $mail->isHTML(true);
     
     $mail->Subject = 'Contact Form Submission from ' . $_REQUEST['email'];
-    $mail->Body    = '<h1>Contact Form Submission</h1><br>' . 
+    $mail->Body    = '<h3 style="font-weight: 300;">Contact Form Submission</h3><br>' . 
                      '<b>Name</b>: '    . $_REQUEST['name'] . '<br>' .
                      '<b>Email</b>: '   . $_REQUEST['email'] . '<br>' .
                      '<b>Subject</b>: ' . $_REQUEST['topic'] . '<br>' .

@@ -26,7 +26,7 @@ nextpage:
                 <p>{{ focus.body }}</p>
                 {% if focus.link %}
                     {% if focus.title == 'Workshops & Training' %}
-                        <a href="{{ focus.link }}" class="btn btn-default">Sign-up for updates {% include icons/icon_arrow_right.html %}</a>
+                        <a href="{{ focus.link }}" class="btn btn-default">See upcoming workshops {% include icons/icon_arrow_right.html %}</a>
                     {% else %}
                         <a href="/work/{{ focus.link }}" class="btn btn-default">See a case study {% include icons/icon_arrow_right.html %}</a>
                     {% endif %}

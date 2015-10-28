@@ -52,11 +52,11 @@ callout:
                 <div class="alert alert-success hidden"><strong>Thanks for contacting us!</strong> Someone will reach out to you shortly.</div>
                 <div class="alert alert-danger hidden"><strong>Uh oh!</strong> Something went wrong. Reach out to us directly at hello@interactivemechanics.com!</div>
                 <form id="form" method="post" action="/contact.php">
-                    <label for="name">Full Name</label>
-                    <input class="form-control input-lg" type="text" name="name" id="name" placeholder="John Smith" />
+                    <label for="name">Full Name *</label>
+                    <input class="form-control input-lg" type="text" name="name" id="name" placeholder="John Smith" required />
                 
                     <label for="email" required>Email Address *</label>
-                    <input class="form-control input-lg" type="text" name="email" id="email" placeholder="johnsmith@mycompany.com" />
+                    <input class="form-control input-lg" type="email" name="email" id="email" placeholder="johnsmith@mycompany.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required />
                 
                     <label for="topic">I'd like to talk about...</label>
                     <select class="form-control input-lg" name="topic" id="topic">
