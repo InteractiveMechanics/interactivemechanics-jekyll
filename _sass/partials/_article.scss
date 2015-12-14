@@ -68,5 +68,21 @@
         right: 0;
         background: $darkblue;
         opacity: 0.8;
+
+        &.tools-and-tech {
+            background: #3b599a;
+        }
+        &.community {
+            background: #424ca0;
+        }
+        &.process {
+            background: #3b8db1;
+        }
+        &.project-updates {
+            background: #37a7a0;
+        }
+        &.behind-the-scenes {
+            background: #5f4da0;
+        }
     }
 }

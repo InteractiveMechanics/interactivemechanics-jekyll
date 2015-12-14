@@ -7,7 +7,7 @@ contact:    Amelia Longo
 
 client:
     name:       "Children's Hospital of Philadelphia"
-    logo:       "/images/logos/chop-logo.svg"
+    logo:       "/images/logos/logo-chop.svg"
     sector:     Healthcare
 
 technology:

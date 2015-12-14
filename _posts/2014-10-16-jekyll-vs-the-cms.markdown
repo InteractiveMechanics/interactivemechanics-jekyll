@@ -4,6 +4,7 @@ title:      "Jekyll versus the CMS: Building the new Grand Round Table website"
 date:       2014-10-16
 author:     Michael Tedeschi
 category:   Tools and Tech
+thumb:      "/images/uploads/new-grand-round-table-website.jpg"
 summary: |
     I was resistant to Jekyll at first—I love WordPress and Drupal, and we’re pretty good at building these types of CMS-driven sites quickly. Jekyll felt like an intruder. Posts, pages, categories? Sounds a lot like WordPress to me, without the pretty interface and easy-to-understand workflow for administration and editing. Is Jekyll actually a viable option as a marketing site for companies?
 

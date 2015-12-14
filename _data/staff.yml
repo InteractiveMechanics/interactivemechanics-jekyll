@@ -1,5 +1,6 @@
   - name:       Michael Tedeschi
     title:      Owner, Creative Director
+    color:      '#CFDCE4'
     bio:        "With years of interactive design experience and creative direction, Michael Tedeschi has worked with several interactive and user experience design teams before forming Interactive Mechanics. He is responsible for the overall creative and technical direction of each project and works closely with his clients to develop compelling stories. Michael specializes in art direction, front-end development, and user experience, and is an active public speaker."
     thumb:      '/images/staff/thumb_tedeschi.jpg'
     image:      '/images/staff/large_tedeschi.jpg'
@@ -10,6 +11,7 @@
 
   - name:       Amelia Longo
     title:      Director of Strategic Initiatives
+    color:      '#CED2DB'
     bio:        "Amelia has worked in business development, events, and community management in the tech and arts and culture sectors for almost a decade. She previously worked with GIS B-Corp Azavea and with SecondMuse, where she supported Al Jazeera's Media in Context Hackathon and the NASA Space Apps Challenge, as well as with the Annenberg Center, FringeArts, Apiary Magazine, and the Mural Arts Program. She also writes for the stage, volunteers with Mighty Writers, and serves on the boards of Camp Sojourner and the La Salle University Art Museum."
     thumb:      '/images/staff/thumb_longo.jpg'
     image:      '/images/staff/large_longo.jpg'
@@ -20,6 +22,7 @@
 
   - name:       Jeff Majek
     title:      Lead UI Engineer
+    color:      '#E0E1E5'
     bio:        "Jeff has a strong background in full-stack web development and user experience. After graduating with a degree in Computer Science from Rowan University, Jeff worked with the Internet Video Archive, where he maintained consumer and internal apps and sites. He attends local hackathons and development events, and was a key contributor to WaterSafe at Random Hacks of Kindness, an open source tool to inform citizens about the safety of their drinking water."
     thumb:      '/images/staff/thumb_majek.jpg'
     image:      '/images/staff/large_majek.jpg'
@@ -30,9 +33,21 @@
 
   - name:       Christina Deemer
     title:      UX Developer
+    color:      '#D1D8E0'
     bio:        "Currently enrolled as a student in the Web Design and Development Certificate Program at the University of the Arts, Christina assists the Interactive Mechanics team on prototypes and production code. Christina is an alumnus of Code for Philly's Open Source Mentorship Program and is an active student and TA with Girl Develop It Philly. Prior to joining Interactive Mechanics, Christina spent more than a decade in fundraising and arts management, working with some of Philadelphia's most prestigious cultural institutions."
     thumb:      '/images/staff/thumb_deemer.jpg'
     image:      '/images/staff/large_deemer.jpg'
     twitter:    
         url:    https://twitter.com/cahdeemer
         handle: '@cahdeemer'
+
+
+  - name:       Stacey Mann
+    title:      Content & Interpretive Strategist
+    color:      '#D2D8DF'
+    bio:        "Stacey Mann has worked as an exhibit and education experience designer for over 15 years and holds her Masters in Learning Sciences from Northwestern University. She consults with clients on how to develop and best engage audiences in online learning environments. Early work with the Exploratorium in San Francisco provided the foundation for an inquiry-based and user-centered design approach that she applies to her work in award-winning digital media interaction design, exhibit development, and interpretive planning."
+    thumb:      '/images/staff/thumb_mann.jpg'
+    image:      '/images/staff/large_mann.jpg'
+    twitter:    
+        url:    https://twitter.com/smanny
+        handle: '@smanny'

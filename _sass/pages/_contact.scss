@@ -24,4 +24,18 @@
             }
         }
     }
+
+    .checkbox {
+        margin-bottom: 15px;
+
+        input {
+            margin-left: -30px;
+        }
+        label {
+            font-size: 1.6rem;
+            color: $black;
+            text-transform: none;
+            padding-left: 30px;
+        }
+    }
 }

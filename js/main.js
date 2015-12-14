@@ -40,7 +40,8 @@ $(function(){
     function randomFooterMessage() {
         var footer = [
             "Lots of love from Philly.",
-            "Cheesesteaks for everyone!"
+            "Cheesesteaks for everyone!",
+            "Happy holidays!"
         ];
         var random = Math.floor(Math.random() * footer.length);    
     

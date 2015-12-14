@@ -7,7 +7,7 @@ contact:    Amelia Longo
 
 client:
     name:       "The Mayor's Fund for Philadelphia"
-    logo:       "/images/logos/tmf-logo.svg"
+    logo:       "/images/logos/logo-tmf.svg"
     sector:     Nonprofit
     link:   
         url:    "http://www.mayorsfundphila.org/"

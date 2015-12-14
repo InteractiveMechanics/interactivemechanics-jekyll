@@ -29,7 +29,7 @@
     <link href="{{ "/css/lib/pygments.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
 </head>
-<body {% if page.url contains 'index.html' %} class="homepage" {% endif %}>
+<body {% if page.path == "index.html" %} class="homepage" {% endif %}>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

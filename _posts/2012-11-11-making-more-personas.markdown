@@ -4,6 +4,7 @@ title:      "Making More of Personas & Scenarios"
 date:       2012-11-11
 author:     Michael Tedeschi
 category:   Process
+thumb:      "/images/uploads/making-more-of-personas-thumb.jpg"
 summary: |
     After attending [Kim Goodwin‘s](http://www.uie.com/events/uiconf/2012/workshops/kim-goodwin/) Using Scenarios to Design Intuitive Experiences workshop at the User Interface 17 Conference (www.uie.com), we have a whole new toolkit of exercises and techniques for making the most of our personas and scenarios.
 

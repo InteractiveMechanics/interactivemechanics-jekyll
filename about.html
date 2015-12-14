@@ -6,7 +6,7 @@ weight:         1
 in_nav:         true
 
 summary: |
-    Interactive Mechanics was founded in 2012 with the mission to work on meaningful digital projects for arts & culture, educational institutions, nonprofits,         and care organizations. Our skilled team works on any type of digital project, from websites and mobile applications to interactive exhibits and digital and interpretive strategies.
+    We founded Interactive Mechanics in 2012 with the mission to use design and technology for social good, collaborating with like-minded partners in the arts, culture, education, and care fields. Our skilled team works on all kinds of digital projects, from websites and mobile applications to interactive exhibits and digital strategies.
 
 callout:
     title:      What drives us
@@ -49,7 +49,7 @@ nextpage:
 </section>
 
 {% for staff in site.data.staff %}
-    <section class="staff {% cycle 'odd', 'even' %}">
+    <section class="staff {% cycle 'odd', 'even' %}" style="background-color: {{ staff.color }};">
         <img src="{{ staff.image }}" alt="{{ staff.name }}, {{ staff.title }}" />
         <div class="staff-container">
             <h2>{{ staff.name }} <small>{{ staff.title }}</small></h2>

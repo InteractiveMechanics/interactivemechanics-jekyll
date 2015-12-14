@@ -1,21 +1,22 @@
 nonprofit:
-    title: Arts, Culture, & Nonprofits
+    title: Arts & Culture
     orgs:
-        - name: "Albert M. Greenfield Digital Center for the History of Women's Education"
+        
         - name: "Art Libraries Society of North America"
-        - name: "Clean Air Council"
         - name: "DC Public Library"
+        - name: "Eastern State Penitentiary"
         - name: "Fairmount Water Works"
         - name: "Ford's Theatre"
         - name: "Independence Seaport Museum"
-        - name: "The Mayor's Fund for Philadelphia"
         - name: "Philadelphia Digital Humanities"
         - name: "Philadelphia Museum of Art"
-        - name: "Physician Assistant Education Association"
+        - name: "Scribe Video Center"
+        - name: "The Mayor's Fund for Philadelphia"
 
 education:
     title: Educational Institutions
     orgs:
+        - name: "Albert M. Greenfield Digital Center for the History of Women's Education"
         - name: "Anvil Academic"
         - name: "Archive Journal"
         - name: "Bard Graduate Center"
@@ -27,19 +28,16 @@ education:
         - name: "South Central Kansas Library System"
         - name: "The Council on Library and Information Resources"
         - name: "The National Institute for Technology in Liberal Education"
-        - name: "Vassar College"        
 
 care:
-    title: Social Impact & Care
+    title: Care & Social Impact
     orgs:
         - name: "American Board of Allergy and Immunology"
+        - name: "CanSurround"
         - name: "Center for Applied Research"
         - name: "Children's Hospital of Philadelphia"
-        - name: "Ford Motor Company"
         - name: "Grand Round Table"
-        - name: "Idea Platforms"
+        - name: "Physician Assistant Education Association"
         - name: "ROAR for Good"
-        - name: "Steamroller Labs"
-        - name: "Trinity Works LLC"
         - name: "University of Michigan Social Venture Fund"
         - name: "World Bank"

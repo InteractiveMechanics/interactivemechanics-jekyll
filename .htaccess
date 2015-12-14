@@ -5,7 +5,6 @@ AddType video/webm .webm
 Redirect 301 /what-we-do/ http://interactivemechanics.com/about-us/
 Redirect 301 /case-studies/ http://interactivemechanics.com/work/
 Redirect 301 /blog/ http://interactivemechanics.com/news/
-Redirect 301 /workshops/ http://interactivemechanics.com/services/
 
 Redirect 301 /blog/remembering-lincoln-150-years-later/ http://interactivemechanics.com/news/2015/03/remembering-lincoln/
 Redirect 301 /blog/digital-projects-101-at-philly-tech-week-2015/ http://interactivemechanics.com/news/2015/02/digital-projects-for-arts-culture/

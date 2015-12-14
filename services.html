@@ -23,7 +23,7 @@ nextpage:
             <div class="left" style="background-image: url({{ focus.image }});"></div>
             <div class="right">
                 <h5>{{ focus.title }}</h5>
-                <p>{{ focus.body }}</p>
+                <p>{{ focus.body | markdownify }}</p>
                 {% if focus.link %}
                     {% if focus.title == 'Workshops & Training' %}
                         <a href="{{ focus.link }}" class="btn btn-default">See upcoming workshops {% include icons/icon_arrow_right.html %}</a>

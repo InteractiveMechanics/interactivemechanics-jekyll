@@ -10,7 +10,7 @@ layout:     default
         </video>
     </div>
     <div class="container">
-        <h1><strong>Beautiful design</strong> meets <strong>cutting-edge technology</strong> for arts, culture, education, and care organizations.</h1>
+        <h1>Beautiful design and visionary technology for arts, culture, education, and care.</h1>
         <a href="/about-us" class="btn btn-default btn-white">Read our story {% include icons/icon_arrow_right.html %}</a>
         <a href="/work" class="btn btn-default btn-white">Explore our work {% include icons/icon_arrow_right.html %}</a>
     </div>
@@ -19,7 +19,7 @@ layout:     default
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                <h2 class="text-center"><strong>Interactive Mechanics</strong> is an interactive design firm that partners with cultural, educational, and healthcare organizations on design, development, user experience, and strategy.</h2>
+                <h2 class="text-center">Interactive Mechanics is a digital design firm that partners with <strong>cultural, educational, and care organizations</strong> on design, development, user experience, and strategy.</h2>
                 <p>
                     Our team builds beautiful, user-centered digital projects for web, mobile, and in-gallery exhibits that empower, educate, and inspire your audiences. Whether we're working with you to design a new website, craft a digital strategy, or develop an interactive exhibit, we approach every project with openness, creativity, and empathy. 
                     <a href="/about-us">Learn more about us &raquo;</a></p>
@@ -45,10 +45,8 @@ layout:     default
     <div class="container">
         <h1>Recent News</h1>
         <div class="row">
-            {% for post in site.posts %}
-                {% if forloop.index < 4 %}
-                    {% include inc_article.html %}
-                {% endif %}
+            {% for post in site.posts limit:3 %}
+                {% include inc_article.html %}
             {% endfor %}
         </div>
     </div>

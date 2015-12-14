@@ -2,7 +2,7 @@
     <a class="article {% if post.thumb %}image{% endif %}" href="{{ post.url }}">
         {% if post.thumb %}
             <img src="{{ post.thumb }}" />
-            <div class="overlay"></div>
+            <div class="overlay {{ post.category | downcase | replace:' ','-' }}"></div>
         {% endif %}
         <div class="article-container">
             <h5>{{ post.category }}<span class="divider"></span>{{ post.date | date: '%B %Y' }}</h5>
