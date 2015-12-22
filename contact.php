@@ -26,12 +26,18 @@
                      '<b>Subject</b>: ' . $_REQUEST['topic'] . '<br>' .
                      '<b>Message</b>: ' . $_REQUEST['message'] . '<br>' .
                      '<b>Date</b>: '    . $date;
+
     
-    if(!$mail->send()) {
-        header('Location: /contact?failed');
-        die();
+    if (!filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL) === false) {
+        if(!$mail->send()) {
+            header('Location: /contact?failed');
+            die();
+        } else {
+            header('Location: /contact?success');
+            die();
+        }
     } else {
-        header('Location: /contact?success');
+        header('Location: /contact?failed');
         die();
     }
 ?>

@@ -34,6 +34,7 @@ header {
             height: 80px;
             opacity: 1;
             transition: $transition;
+            position: relative;
 
             @media screen and #{$screen-ltmd} {
                 width: 40px;
@@ -49,8 +50,11 @@ header {
                 opacity: 0.65;
 
                 #hammer {
-                    top: -10px;
-                    transform: rotate(-6deg);
+                    -o-transform: rotate(-6deg) translateY(-6px);
+                    -webkit-transform: rotate(-6deg) translateY(-6px);
+                    -ms-transform: rotate(-6deg) translateY(-6px);
+                    -moz-transform: rotate(-6deg) translateY(-6px);
+                    transform: rotate(-6deg) translateY(-6px);
                 }
             }
 
@@ -58,7 +62,11 @@ header {
                 position: relative;
                 top: 0;
                 left: 0;
-                transform: rotate(0);
+                -o-transform: rotate(0) translateY(0);
+                -webkit-transform: rotate(0) translateY(0);
+                -ms-transform: rotate(0) translateY(0);
+                -moz-transform: rotate(0) translateY(0);
+                transform: rotate(0) translateY(0);
                 transition: $transition;
             }
         }

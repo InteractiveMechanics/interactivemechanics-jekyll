@@ -1,0 +1,61 @@
+---
+layout:         page
+title:          Workshops
+permalink:      workshops/
+weight:         3
+in_nav:         true
+
+summary: |
+    We've learned a lot from our client projects, and we love sharing information about our process, tools, tips and tricks. We offer monthly lunch and learns that feature hands-on activities, group conversations, and templates to take with you. We're always interested in hearing what you want to learn next!
+
+callout:
+    title:      In-house Workshops
+    body: |
+        We also offer customized in-house workshops, so if you have a staff training need or an idea you want help tackling, let us know!
+
+
+--- 
+
+<section>
+    <div class="container">
+        <div class="row">
+            {% for workshop in site.data.workshops %}
+                <div class="col-md-4">
+                    <a class="article image" href="{{ workshop.url }}">
+                        <img src="{{ workshop.image }}" />
+                        <div class="overlay" style="background: {{ workshop.color }};"></div>
+                        <div class="article-container">
+                            <h5>{{ workshop.date }}<span class="divider"></span>{{ workshop.time }}<span class="divider"></span>{{ workshop.cost }}</h5>
+                            <h2>{{ workshop.title }}</h2>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="gray">
+    <div class="container">
+        <div class="footer-callout">
+            <h2>Sign up for updates on our workshops&mdash;no spam here, we promise.</h2>
+            <form action="http://interactivemechanics.us4.list-manage.com/subscribe/post?u=60a7a9b85d71c540f39a195f3&amp;id=185fdc2b87" 
+                  class="form-inline"
+                  id="mc-embedded-subscribe-form" 
+                  role="form" 
+                  name="mc-embedded-subscribe-form"
+                  method="post"
+                  novalidate="">
+                <div class="row">
+                    <div class="col-sm-8 col-md-9">
+                        <input name="EMAIL" type="email" class="form-control input-lg" placeholder="john.doe@company.me">
+                        <input type="checkbox" value="1" class="hidden" name="group[19733][1]" id="mce-group[19733]-19733-0" checked>
+                        <input type="checkbox" value="2" class="hidden" name="group[19733][2]" id="mce-group[19733]-19733-1" checked>
+                    </div>
+                    <div class="col-sm-4 col-md-3">
+                        <button type="submit" class="pull-right btn btn-default">Sign up {% include icons/icon_arrow_right.html %}</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
