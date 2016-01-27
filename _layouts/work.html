@@ -122,7 +122,7 @@ layout:     default
             </div>
         </div>
         <div class="row">
-            {% for work in site.work %}
+            {% for work in site.work | limit:4 %}
                 {% unless page.url == work.url %}
                     {% assign project = work %}
                     {% include inc_work.html %}

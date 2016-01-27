@@ -1,9 +1,9 @@
 <div class="col-md-4 news-container active" data-category={{ post.category | downcase | replace:' ','-' }}>
-    <a class="article {% if post.thumb %}image{% endif %}" href="{{ post.url }}">
+    <a class="article image" href="{{ post.url }}">
         {% if post.thumb %}
             <img src="{{ post.thumb }}" />
-            <div class="overlay {{ post.category | downcase | replace:' ','-' }}"></div>
         {% endif %}
+        <div class="overlay {{ post.category | downcase | replace:' ','-' }}"></div>
         <div class="article-container">
             <h5>{{ post.category }}<span class="divider"></span>{{ post.date | date: '%B %Y' }}</h5>
             <h2>{{ post.title }}</h2>
