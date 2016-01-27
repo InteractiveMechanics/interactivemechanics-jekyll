@@ -1,6 +1,6 @@
 ---
 layout:         default
-title:          News
+title:          Blog
 permalink:      news/
 weight:         4
 in_nav:         true
@@ -8,9 +8,9 @@ in_nav:         true
 
 <section class="page-title">
     <div class="container">
-        <h1>News & Insights</h1>
+        <h1>Blog & Insights</h1>
         <ul id="news-filters" class="list-inline">
-            <li class="active"><a data-category-filter="all">All News</a></li>
+            <li class="active"><a data-category-filter="all">All Articles</a></li>
             {% for tag in site.categories %}
                 <li><a data-category-filter="{{ tag[0] | downcase | replace:' ','-' }}">{{ tag[0] | capitalize }}</a></li>
             {% endfor %}

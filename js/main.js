@@ -41,7 +41,7 @@ $(function(){
         var footer = [
             "Lots of love from Philly.",
             "Cheesesteaks for everyone!",
-            "Happy holidays!"
+            "#snacktacular"
         ];
         var random = Math.floor(Math.random() * footer.length);    
     
