@@ -33,9 +33,11 @@ layout:     default
         <div class="row">
             {% for service in site.data.focusareas %}
                 <div class="col-md-3">
-                    {% assign icon = service.image %}
-                    <div class="thumb"><img src="{{ icon }}" alt="{{ service.title }}" /></div>
-                    <h5>{{ service.title }}</h5>
+                    <a href="/services/#{{ service.short }}" style="display: block;">
+                        {% assign icon = service.image %}
+                        <div class="thumb"><img src="{{ icon }}" alt="{{ service.title }}" /></div>
+                        <h5>{{ service.title }}</h5>
+                    </a>
                 </div>
             {% endfor %}
         </div>

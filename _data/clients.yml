@@ -11,6 +11,7 @@ nonprofit:
         - name: "Philadelphia Digital Humanities"
         - name: "Philadelphia Museum of Art"
         - name: "Scribe Video Center"
+        - name: "Surface Design Association"
         - name: "The Mayor's Fund for Philadelphia"
 
 education:
@@ -36,6 +37,7 @@ care:
         - name: "CanSurround"
         - name: "Center for Applied Research"
         - name: "Children's Hospital of Philadelphia"
+        - name: "College of Physicians of Philadelphia"
         - name: "Grand Round Table"
         - name: "Physician Assistant Education Association"
         - name: "ROAR for Good"

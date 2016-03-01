@@ -11,7 +11,7 @@ summary: |
 callout:
     title:      In-house Workshops
     body: |
-        We also offer customized in-house workshops, so if you have a staff training need or an idea you want help tackling, let us know!
+        We also offer customized in-house workshops, so if you have a staff training need or an idea you want help tackling, [let us know](/contact)!
 
 
 --- 
@@ -37,10 +37,29 @@ callout:
                         <div class="overlay" style="background: #f1f2f2;"></div>
                         <div class="article-container">
                             <h2 class="text-center">Current clients attend for free. No joke.</h2>
-                            <p class="text-center">All of our workshops are open to our clients and partners. Contact us to learn more!</p>
+                            <p class="text-center">All of our featured workshops are open to our clients and partners. Contact us to learn more!</p>
                         </div>
                     </a>
                 </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h1>Other upcoming events</h1>
+        <div class="row">
+            {% for event in site.data.events %}
+                <div class="col-md-4">
+                    <a class="article image" href="{{ event.url }}">
+                        <img src="{{ event.image }}" />
+                        <div class="overlay" style="background: {{ event.color }};"></div>
+                        <div class="article-container">
+                            <h5>{{ event.date }}<span class="divider"></span>{{ event.location }}</h5>
+                            <h2>{{ event.title }}</h2>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </section>

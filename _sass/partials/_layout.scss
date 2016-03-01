@@ -49,6 +49,10 @@ pre {
         color: rgba(255,255,255,0.65);
         font-size: 1.2rem;
     }
+    .carousel-indicators {
+        position: absolute;
+        bottom: -75px;
+    }
 }
 
 .metadata {

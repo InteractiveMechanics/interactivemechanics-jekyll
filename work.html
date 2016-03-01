@@ -4,6 +4,12 @@ title:          Our work
 permalink:      work/
 weight:         3
 in_nav:         true
+nextpage:
+    title:      Contact us
+    body: |
+        Like what you see? We'd love to talk about your upcoming projects or share more information about our past work. Contact us today to start the conversation!
+    btn_text:   Contact us to learn more
+    btn_link:   contact
 --- 
 
 <section class="page-title">
@@ -21,7 +27,7 @@ in_nav:         true
 
 <section class="gray clients">
     <div class="container">
-        <h2>Select Clients & Partners</h2>
+        <h2>Selected Clients</h2>
         <div class="row">
             {% for clients in site.data.clients %}
                 <div class="col-md-4">
@@ -34,3 +40,5 @@ in_nav:         true
         </div>
     </div>
 </section>
+
+{% include inc_nextpage.html %}

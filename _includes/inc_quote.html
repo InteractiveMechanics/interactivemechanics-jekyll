@@ -1,9 +1,19 @@
 {% if page.quote %}
-    <section class="quote blue">
-        <div class="container">
-            <h2>{{ page.quote.body | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
-            <h5 class="quote-attribution">{{ page.quote.name }}</h5>
-            <h5 class="quote-title">{{ page.quote.title }}</h5>
-        </div>
+    <section id="quote-carousel" class="quote blue" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+        {% for quote in page.quote %}
+            <div class="container item {% if forloop.first %} active {% endif %}">
+                <h2>{{ quote.body | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+                <h5 class="quote-attribution">{{ quote.name }}</h5>
+                <h5 class="quote-title">{{ quote.title }}</h5>
+            </div>
+        {% endfor %}
+        </div>    
+
+        <ol class="carousel-indicators">
+        {% for quote in page.quote %}
+            <li data-target="#quote-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+        {% endfor %}
+        </ol>
     </section>
 {% endif %}

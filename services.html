@@ -19,7 +19,7 @@ nextpage:
 
 <div class="services">
     {% for focus in site.data.focusareas %}
-        <section class="{% cycle 'odd', 'even' %} focus-area">
+        <section id="{{ focus.short }}" class="{% cycle 'odd', 'even' %} focus-area">
             <div class="left" style="background-image: url({{ focus.image }});"></div>
             <div class="right">
                 <h5>{{ focus.title }}</h5>
