@@ -35,6 +35,7 @@ pre {
 
 .quote {
     text-align: center;
+    min-height: 425px;
 
     h2 {
         color: white;
@@ -51,7 +52,7 @@ pre {
     }
     .carousel-indicators {
         position: absolute;
-        bottom: -75px;
+        bottom: 10px;
     }
 }
 

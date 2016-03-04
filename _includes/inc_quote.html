@@ -1,11 +1,13 @@
 {% if page.quote %}
-    <section id="quote-carousel" class="quote blue" data-ride="carousel">
+    <section id="quote-carousel" class="carousel quote blue slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
         {% for quote in page.quote %}
-            <div class="container item {% if forloop.first %} active {% endif %}">
-                <h2>{{ quote.body | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
-                <h5 class="quote-attribution">{{ quote.name }}</h5>
-                <h5 class="quote-title">{{ quote.title }}</h5>
+            <div class="item {% if forloop.first %} active {% endif %}">
+                <div class="container">
+                    <h2>{{ quote.body | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+                    <h5 class="quote-attribution">{{ quote.name }}</h5>
+                    <h5 class="quote-title">{{ quote.title }}</h5>
+                </div>
             </div>
         {% endfor %}
         </div>    
