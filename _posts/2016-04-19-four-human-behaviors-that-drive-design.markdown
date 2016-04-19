@@ -43,4 +43,4 @@ Simply put: To make human curiosity work for you, you need to know what your aud
 
 Visuals and aesthetics are a key part of user design. If users don’t like what they see, they will find ways to avoid looking at it. But users are also unconsciously looking for visual patterns in software they use. Users want internal consistency; they like it when visual elements that go together are grouped similarly. More than that, if the link for tickets isn’t located where the user instinctively feels it should be, it’s a frustrating waste of time to find it. Instilling clear visual patterns and pathways make the user more comfortable. People are attracted to patterns, and attractive things work better.
 
-Want to learn more? Check out our [workshops, or contact us about a customized in-house training session](/contact).
+Want to learn more? Check out our [workshops](/workshops), or [contact us about a customized in-house training session](/contact).

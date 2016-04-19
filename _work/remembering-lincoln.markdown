@@ -5,6 +5,9 @@ thumb:      "/images/uploads/remembering-lincoln-thumb.png"
 color:      be1e2d
 contact:    Michael Tedeschi
 
+awards:
+    - "images/awards/icon-muse-2016.svg"
+
 client:
     name:       "Ford's Theatre"
     logo:       "/images/logos/logo-fords-theatre.svg"
