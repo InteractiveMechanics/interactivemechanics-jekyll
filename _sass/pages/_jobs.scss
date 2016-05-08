@@ -1,0 +1,89 @@
+.jobs-hero {
+    padding-top: 180px !important;
+
+    h5 {
+        color: white;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+    h1 {
+        font-size: 5.4rem !important;
+    }
+
+    .video-container {
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: 0;
+            transition: 0.5s all;
+            height: auto;
+
+            &.in {
+                opacity: 1;
+            }
+        }
+    }
+}
+.job-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.jobs {
+    h5.gold-text {
+        margin-bottom: 30px;
+    }
+    li {
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 1.8;
+    }
+    h2 {
+        margin-bottom: 0;
+        transition: 0.5s all;
+        cursor: pointer;
+
+        small {
+            font-family: $sansserif;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #3b5999;
+            line-height: 1.4;
+            margin-left: 10px;
+        }
+        svg {
+            float: right;
+            position: relative;
+            top: 12px;
+            transition: 0.5s all;
+            transform: rotate(0deg);
+        }
+        &.in svg {
+            transform: rotate(90deg);
+        }
+        &:hover, &:focus, &:active {
+            opacity: 0.65;
+        }
+    }
+    .callout {
+        margin-top: 30px;
+
+        .btn {
+            margin-top: 20px;
+        }
+    }
+    .collapsible {
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.5s all;
+
+        &.in {
+            max-height: 2000px;
+        }
+    }
+}

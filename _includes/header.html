@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <a class="brand" href="/">{% include icons/icon_logo.html %}</a>
-        <div class="pull-right">
+        <div class="pull-right {% if page.path == "jobs.html" %}hidden{% endif %}">
             <ul class="list-inline hidden-xs">
                 {% assign sorted_pages = site.pages | sort:"weight" %}
                 {% for node in sorted_pages %}
@@ -12,5 +12,5 @@
             </ul>
         </div>
     </div>
-    <a class="mobile-menu">{% include icons/icon_menu.html %}</a>
+    <a class="mobile-menu {% if page.path == "jobs.html" %}hidden{% endif %}">{% include icons/icon_menu.html %}</a>
 </header>

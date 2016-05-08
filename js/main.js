@@ -22,6 +22,9 @@ $(function(){
             $nav.toggleClass('hidden');
         }, 500);
     });
+    $(document).on('click', 'h2.job-title', function() {
+        $(this).toggleClass('in').next().toggleClass('in');
+    });
     $(document).on('click', 'a[data-category-filter]', function() {
         var category = $(this).attr('data-category-filter');
         var $news = $('.news');
@@ -35,6 +38,34 @@ $(function(){
             $news.find('[data-category = ' + category + ']').addClass('active');
         }
         $(this).parent().addClass('active');
+    });
+
+    var images = $('.jobs-hero').find('img');
+    if (images.length > 1) {
+        var total = images.length;
+        var count = 0;
+
+        function changeImage() {
+            images.removeClass('in');
+            $('.jobs-hero img:eq(' + count + ')').addClass('in');
+
+            count++;
+            if (count > total - 1){ count = 0; }
+        }
+        setInterval(changeImage, 5000);
+    }
+
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
     });
 
     function randomFooterMessage() {
