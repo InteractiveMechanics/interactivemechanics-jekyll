@@ -1,9 +1,9 @@
   - title:      'Project Manager'
     subtitle:   'Full-time in Philadelphia'
-    body:       "We’re looking for a detail-oriented, personable **project manager** work with our team **full-time (32-40 hours/week)** coordinating our digital projects.
+    body:       "We’re looking for a detail-oriented, personable **project manager** to work with our team **full-time (32-40 hours/week)** coordinating our digital projects. We’re aiming for a start date mid to late June.
                 <br><br>
-                You’ll be involved in keeping our team and clients on track, managing tasks in Asana and schedules in Google Calendar, performing quality assurance on deliverables, and conducting training so clients feel comfortable taking over projects. You will coordinate deadlines, project deliverables and schedules, and project presentations and case studies about our work. You’ll also travel occasionally for client meetings or business development opportunities. You will work closely with all members of our team, and you will report directly to the Creative Director."
-    apply:      'Send your resume and links to projects that you’ve worked on or managed (with your involvement) to jobs@interactivemechanics.com, subject "Project Manager".'
+                You’ll play a key role in keeping our team and clients on track and on budget, coordinating deadlines and project deliverables, and managing tasks in Asana and schedules in Google Calendar. You’ll organize project assets and manage internal workflows. You’ll perform quality assurance on deliverables, develop project documentation, and conduct training so clients are clear about their role in the process and feel comfortable taking over projects. You’ll compile project presentations and case studies about our work. We’re a small team, so we all share other administrative responsibilities as needed. You will work closely with all members of our team, and you will report directly to the Creative Director. This role requires occasional travel for client meetings or business development opportunities."
+    apply:      'Send your application and materials to jobs@interactivemechanics.com, subject "Project Manager".'
     musthave:
       - skill:  'Proactive, reliable, organized, and detail-oriented'
       - skill:  'Comfortable interacting with coworkers, clients, and other stakeholders'
@@ -15,7 +15,9 @@
       - skill:  'Comfortable with the Adobe Creative Suite'
     needs:
       - skill:  'With 1-3 years of experience'
-      - skill:  'With a strong portfolio of work from clients, school, or personal projects'
       - skill:  'Passionate about arts, culture, museums, and education'
       - skill:  'Excited to grow and develop new skills in design or technology'
       - skill:  'Interested in working with a small, close-knit team'
+    send:
+      - skill:  'Describe a project you worked on as a Project Manager or in a related role. (Provide a link if available.) Describe your role in this project, what your process was, how you handled any challenges you faced, and what you’re most proud of. This can be in the body of your email or in an attachment.'
+      - skill:  'Your resume'
