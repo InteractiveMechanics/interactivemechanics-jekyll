@@ -73,7 +73,8 @@ $(function(){
             "Lots of love from Philly.",
             "Cheesesteaks for everyone!",
             "#snacktacular",
-            "See you at MW2016 in Los Angeles!"
+            "Enjoy the warm weather!",
+            "Check out our upcoming webinars."
         ];
         var random = Math.floor(Math.random() * footer.length);    
     

@@ -51,3 +51,14 @@
     twitter:    
         url:    https://twitter.com/smanny
         handle: '@smanny'
+
+  - name:       Amber Reeves
+    title:      Project Manager
+    color:      '#efece4'
+    bio:        "Amber started her career with ten toes in ten different pools, from hairdressing to photography to content writing. After receiving a degree in Anthropology from Temple University, she pursued her interest in building digital experiences through Girl Develop It's coding and user experience classes. For the past four years, her passion for creative teams and all things organized has allowed her to manage digital projects for clients in a variety of industries including higher education and the non-profit sector."
+    thumb:      '/images/staff/thumb_reeves.jpg'
+    image:      '/images/staff/large_reeves.jpg'
+    twitter:    
+        url:    https://twitter.com/amberastronaut
+        handle: '@amberastronaut'
+

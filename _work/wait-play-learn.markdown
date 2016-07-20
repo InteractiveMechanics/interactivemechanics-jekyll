@@ -19,7 +19,7 @@ services:
     - User Testing
 
 summary: |
-    We worked with the Children's Hospital of Philadelphia (CHOP) to create the Wait Play Learn Digital Interactive Pods, a series of hands-free interactive games for the waiting areas in their new facility, using HTML5 Canvas, JavaScript, and Microsoft's Kinect SDK v2. Our work with CHOP highlights our our dedication to user experience and our passion for learning.
+    We worked with the Children's Hospital of Philadelphia (CHOP) to create the Wait Play Learn Digital Interactive Pods, a series of hands-free interactive games for the waiting areas in their new facility, using HTML5 Canvas, JavaScript, and Microsoft's Kinect SDK v2. Our work with CHOP highlights our dedication to user experience and our passion for learning.
 
 process:
     title:          Kid-Friendly & Accessible

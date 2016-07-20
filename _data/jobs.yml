@@ -1,21 +1,21 @@
-  - title:      'Project Manager'
-    subtitle:   'Full-time in Philadelphia'
-    body:       "We’re looking for a detail-oriented, personable **project manager** to work with our team **full-time (32-40 hours/week)** coordinating our digital projects. We’re aiming for a start date mid to late June.
-                <br><br>
-                You’ll play a key role in keeping our team and clients on track and on budget, coordinating deadlines and project deliverables, and managing tasks in Asana and schedules in Google Calendar. You’ll organize project assets and manage internal workflows. You’ll perform quality assurance on deliverables, develop project documentation, and conduct training so clients are clear about their role in the process and feel comfortable taking over projects. You’ll compile project presentations and case studies about our work. We’re a small team, so we all share other administrative responsibilities as needed. You will work closely with all members of our team, and you will report directly to the Creative Director. This role requires occasional travel for client meetings or business development opportunities."
-    musthave:
-      - skill:  'Proactive, reliable, organized, and detail-oriented'
-      - skill:  'Comfortable interacting with coworkers, clients, and other stakeholders'
-      - skill:  'Proficient with Google Apps (Gmail, Drive, and Calendar), Microsoft Office, and online project management tools like Asana or Basecamp'
-      - skill:  'Excellent verbal and written communications skills'
-      - skill:  'With 1-3 years of experience'
-    nicetohave:
-      - skill:  'Passionate about arts, culture, museums, and education'
-      - skill:  'Experience with video production or photography to document processes like user testing and user research for use in case studies and marketing materials'
-      - skill:  'Interest in or experience with evaluation to support user research or testing on projects'
-      - skill:  'Comfortable with the Adobe Creative Suite'
-      - skill:  'Excited to grow and develop new skills in design or technology'
-      - skill:  'Interested in working with a small, close-knit team'
-    send:
-      - skill:  'Describe a project you worked on as a Project Manager or in a related role. (Provide a link if available.) Describe your role in this project, what your process was, how you handled any challenges you faced, and what you’re most proud of. This can be in the body of your email or in an attachment.'
-      - skill:  'Your resume'
+#   - title:      'Project Manager'
+#     subtitle:   'Full-time in Philadelphia'
+#     body:       "We’re looking for a detail-oriented, personable **project manager** to work with our team **full-time (32-40 hours/week)** coordinating our digital projects. We’re aiming for a start date mid to late June.
+#                 <br><br>
+#                 You’ll play a key role in keeping our team and clients on track and on budget, coordinating deadlines and project deliverables, and managing tasks in Asana and schedules in Google Calendar. You’ll organize project assets and manage internal workflows. You’ll perform quality assurance on deliverables, develop project documentation, and conduct training so clients are clear about their role in the process and feel comfortable taking over projects. You’ll compile project presentations and case studies about our work. We’re a small team, so we all share other administrative responsibilities as needed. You will work closely with all members of our team, and you will report directly to the Creative Director. This role requires occasional travel for client meetings or business development opportunities."
+#     musthave:
+#       - skill:  'Proactive, reliable, organized, and detail-oriented'
+#       - skill:  'Comfortable interacting with coworkers, clients, and other stakeholders'
+#       - skill:  'Proficient with Google Apps (Gmail, Drive, and Calendar), Microsoft Office, and online project management tools like Asana or Basecamp'
+#       - skill:  'Excellent verbal and written communications skills'
+#       - skill:  'With 1-3 years of experience'
+#     nicetohave:
+#       - skill:  'Passionate about arts, culture, museums, and education'
+#       - skill:  'Experience with video production or photography to document processes like user testing and user research for use in case studies and marketing materials'
+#       - skill:  'Interest in or experience with evaluation to support user research or testing on projects'
+#       - skill:  'Comfortable with the Adobe Creative Suite'
+#       - skill:  'Excited to grow and develop new skills in design or technology'
+#       - skill:  'Interested in working with a small, close-knit team'
+#     send:
+#       - skill:  'Describe a project you worked on as a Project Manager or in a related role. (Provide a link if available.) Describe your role in this project, what your process was, how you handled any challenges you faced, and what you’re most proud of.'
+#       - skill:  'Your resume'

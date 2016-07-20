@@ -1,7 +1,3 @@
-  - name:       Brian Alexandrowicz
-    title:      UI/UX Designer
-    thumb:      '/images/partners/thumb_alexandrowicz.jpg'
-
   - name:       Tara Espenshade
     title:      Interactive Design
     thumb:      '/images/partners/thumb_espenshade.jpg'
@@ -17,3 +13,7 @@
   - name:       R&R Creative
     title:      Marketing & Strategy
     thumb:      '/images/partners/thumb_rr.jpg'
+
+  - name:       Universal Service Associates
+    title:      Fabrication & Build
+    thumb:      '/images/partners/thumb_usa.jpg'

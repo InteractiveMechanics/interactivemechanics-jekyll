@@ -3,7 +3,7 @@ layout:         default
 title:          Jobs
 permalink:      jobs/
 weight:         5
-in_nav:         true
+in_nav:         false
 
 summary: |
     We're a small, close-knit group of designers, developers, and content specialists who build amazing things, and we'd love for you to join us.
@@ -25,7 +25,7 @@ callout:
         <img src="/images/jobs/jobs_large_05.jpg" alt="Jeff Majek and Mike Tedeschi installing digital interactives at Interactive Mechanics" />
     </div>
     <div class="container">
-        <h5>Jobs & Careers</h5>
+        <h5>Jobs</h5>
         <h1>{{ page.summary }}</h1>
         <a href="#openings" class="btn btn-default btn-white">See Open Positions {% include icons/icon_arrow_right.html %}</a>
     </div>
@@ -38,6 +38,8 @@ callout:
                 <p>Interactive Mechanics has two priorities: our team and our clients. <a href="/about-us">Our team</a> is actively involved in the growth and betterment of the company through regular start-stop-continue meetings, an annual planning retreat, and monthly one-on-ones with the owner. Our employee benefits include:</p>
                 <p><strong>Unlimited Paid Time Off</strong><br>
                     We believe in a healthy work-life balance, so we suggest that employees take a <em>minimum of two weeks off</em> to relax and recharge. In addition to seven paid holidays, we also take off the entire week between Christmas and New Years and have <em>flexible work hours</em>.</p>
+                <p><strong>100% Coverage Health Insurance</strong><br>
+                    We offer 100% employer covered health and dental insurance for full-time staff.</p>
                 <p><strong>Matched Retirement Account</strong><br>
                     We provide a Simple IRA retirement plan and match 100% of your contributions, up to 3% of your annual salary.</p>
                 <p><strong>Educational Stipend</strong><br>
@@ -117,52 +119,66 @@ callout:
     <div class="container">
         <h5 class="gold-text">All Open Positions</h4>
             <hr/>
-            {% for job in site.data.jobs %}
-                <h2 class="job-title">{{ job.title }} <small>{{ job.subtitle }}</small> {% include icons/icon_arrow_right.html %}</h2>
-                <div class="collapsible row">
-                    <div class="col-md-8">
-                        <p>{{ job.body | markdownify }}</p>
-
-                        {% if job.musthave %}
-                        <p style="margin: 20px 0 0;"><strong>Must-have skills</strong></p>
-                        <ul>
-                            {% for s in job.musthave %}
-                                <li>{{ s.skill }}</li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-
-                        {% if job.nicetohave %}
-                        <p style="margin: 20px 0 0;"><strong>Nice-to-have skills</strong></p>
-                        <ul>
-                            {% for s in job.nicetohave %}
-                                <li>{{ s.skill }}</li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-
-                        {% if job.send %}
-                        <p style="margin: 20px 0 0;"><strong>What to send</strong></p>
-                        <ul>
-                            {% for s in job.send %}
-                                <li>{{ s.skill }}</li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-
-                        <br>
-                        <p><em>Salary negotiable and commensurate with experience. Benefits include flexible hours, unlimited paid time off, matched retirement, public transit reimbursement, education and museum stipends, and snacks.</em></p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="callout">
-                            <h5>Are you a good fit?</h5>
-                            <p>To apply, please email your materials in one attached document to jobs@interactivemechanics.com with the subject "{{ job.title }}". We don't need a cover letter.</p>
-                            <a class="btn btn-default btn-block" target="_blank" href="mailto:jobs@interactivemechanics.com?subject={{ job.title | uri_escape }}">Apply Now! {% include icons/icon_arrow_right.html %}</a>
+            {% comment %}
+                {% if site.data.jobs %}
+                    {% for job in site.data.jobs %}
+                        <h2 class="job-title">{{ job.title }} <small>{{ job.subtitle }}</small> {% include icons/icon_arrow_right.html %}</h2>
+                        <div class="collapsible row">
+                            <div class="col-md-8">
+                                <p>{{ job.body | markdownify }}</p>
+        
+                                {% if job.musthave %}
+                                <p style="margin: 20px 0 0;"><strong>Must-have skills</strong></p>
+                                <ul>
+                                    {% for s in job.musthave %}
+                                        <li>{{ s.skill }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+        
+                                {% if job.nicetohave %}
+                                <p style="margin: 20px 0 0;"><strong>Nice-to-have skills</strong></p>
+                                <ul>
+                                    {% for s in job.nicetohave %}
+                                        <li>{{ s.skill }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+        
+                                {% if job.send %}
+                                <p style="margin: 20px 0 0;"><strong>What to send</strong></p>
+                                <ul>
+                                    {% for s in job.send %}
+                                        <li>{{ s.skill }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+        
+                                <br>
+                                <p><em>Salary negotiable and commensurate with experience. Benefits include flexible hours, unlimited paid time off, matched retirement, public transit reimbursement, education and museum stipends, and snacks.</em></p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="callout">
+                                    <h5>Are you a good fit?</h5>
+                                    <p>To apply, please email your materials in one attached document to jobs@interactivemechanics.com with the subject "{{ job.title }}". We don't need a cover letter.</p>
+                                    <a class="btn btn-default btn-block" target="_blank" href="mailto:jobs@interactivemechanics.com?subject={{ job.title | uri_escape }}">Apply Now! {% include icons/icon_arrow_right.html %}</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                    {% endfor %}
+                {% else %}
+                    <br/>
+                    <h2>No job opportunities, currently!</h2>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="text-muted">Although we're not hiring right now, feel free to send your resume and application materials to jobs@interactivemechanics.com and we'll keep your information on file for future job openings.</p>
                         </div>
                     </div>
-                </div>
-                <hr/>
-            {% endfor %}
+                {% endif %}
+            {% endcomment %}
+            <h2 class="job-title"><a href="/fellowship">2016 Design & Development Fellows <small>Part-time in Philadelphia</small> {% include icons/icon_arrow_right.html %}</a></h2>
+            <hr/>
         </div>
     </div>
 </section>

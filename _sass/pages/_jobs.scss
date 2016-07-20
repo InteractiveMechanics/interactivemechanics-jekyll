@@ -73,6 +73,10 @@
         transition: 0.5s all;
         cursor: pointer;
 
+        a {
+            color: black;
+            text-decoration: none;
+        }
         small {
             font-family: $sansserif;
             text-transform: uppercase;
