@@ -3,6 +3,7 @@ layout:     work
 title:      "The Mayor's Fund for Philadelphia"
 thumb:      "/images/uploads/mayors-fund-thumb.jpg"
 color:      045b97
+date:       2014-12-14
 contact:    Amelia Longo
 
 client:

@@ -3,6 +3,7 @@ layout:     work
 title:      "Rice Room Interactives"
 thumb:      "/images/uploads/pma-thumb.jpg"
 color:      CEAF70
+date:       2015-08-01
 contact:    Amelia Longo
 
 client:
@@ -30,6 +31,7 @@ about:
 process:
     title:          Kid-Friendly & Accessible
     images:
+        - video:    "https://player.vimeo.com/video/173960064"
         - image:    "/images/uploads/pma-screen-01.jpg"
           alt:      Philadelphia Museum of Art's Rice Room Interactives
         - image:    "/images/uploads/pma-screen-02.jpg"

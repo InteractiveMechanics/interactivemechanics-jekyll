@@ -12,6 +12,7 @@ header {
     &.scrolling {
         .mobile-menu {
             top: 30px;
+            opacity: 1;
         }
     }
 
@@ -78,6 +79,7 @@ header {
         transition: $transition;
         cursor: pointer;
         z-index: 1000;
+        opacity: 0;
 
         @media screen and #{$screen-ltmd} {
             top: 15px !important;

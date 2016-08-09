@@ -11,6 +11,27 @@
     <meta property="og:image" content="{{ "/images/icons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
     <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@interactivemech">
+    <meta name="twitter:creator" content="@interactivemech">
+    {% if page.title %}
+        <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}">
+    {% else %}
+        <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+
+    {% if page.summary %}
+        <meta name="twitter:description" content="{{ page.summary }}">
+    {% else %}
+        <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+
+    {% if page.thumb %}
+        <meta name="twitter:image" content="{{ page.thumb }}">
+    {% else %}
+        <meta name="twitter:image" content="{{ site.thumb }}">
+    {% endif %}
+
     <title>
         {% if page.title %}
             {{ page.title }} - {{ site.title }}
@@ -55,4 +76,3 @@
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>
-

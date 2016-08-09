@@ -1,7 +1,15 @@
 <div class="col-md-4">
     <a class="work" href="{{ project.url }}">
         <img src="{{ project.thumb }}" />
-        <div class="overlay" style="background-color: #{{ project.color }};"></div>
+        {% if project.services[0] == 'Web Design & Development' %}
+            <div class="overlay" style="background-color: #3ab2c4;"></div>
+        {% endif %}
+        {% if project.services[0] == 'Mobile Design & Development' %}
+            <div class="overlay" style="background-color: #3b599a;"></div>
+        {% endif %}
+        {% if project.services[0] == 'Interactive Exhibits' %}
+            <div class="overlay" style="background-color: #37a7a0;"></div>
+        {% endif %}
         <div class="work-container">
             <h5>
                 {% for service in project.services %}

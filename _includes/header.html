@@ -9,6 +9,7 @@
                         <li {% if page.url contains node.url %}class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
                     {% endif %}
                 {% endfor %}
+                <li><a href="/fellowship">Fellowship</a></li>
             </ul>
         </div>
     </div>

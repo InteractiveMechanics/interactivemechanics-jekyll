@@ -18,7 +18,8 @@ nextpage:
     </div>
     <div class="container">
         <div class="row">
-            {% for project in site.work %}
+            {% assign work = site.work | sort: 'date', 'last' %}
+            {% for project in work reversed %}
                 {% include inc_work.html %}
             {% endfor %}
         </div>

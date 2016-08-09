@@ -31,36 +31,26 @@ callout:
                     </a>
                 </div>
             {% endfor %}
-                <div class="col-md-4">
-                    <a class="article" href="/contact">
-                        <img src="{{ workshop.image }}" />
-                        <div class="overlay" style="background: #f1f2f2;"></div>
-                        <div class="article-container">
-                            <h2 class="text-center">Current clients attend for free. No joke.</h2>
-                            <p class="text-center">All of our lunch and learns are open to our clients and partners. Contact us to learn more!</p>
-                        </div>
-                    </a>
-                </div>
         </div>
     </div>
 </section>
 <section>
     <div class="container">
-        <h1>Other upcoming events</h1>
-        <div class="row">
-            {% for event in site.data.events %}
-                <div class="col-md-4">
-                    <a class="article image" href="{{ event.url }}">
-                        <img src="{{ event.image }}" />
-                        <div class="overlay" style="background: {{ event.color }};"></div>
-                        <div class="article-container">
-                            <h5>{{ event.date }}<span class="divider"></span>{{ event.location }}</h5>
-                            <h2>{{ event.title }}</h2>
-                        </div>
-                    </a>
+        <h1>Past Workshops & Webinars</h1>
+        
+        {% for workshop in site.data.pastworkshops %}
+            <div class="row workshop">
+                <div class="col-md-2">
+                    <div class="workshop-image"><img src="{{ workshop.image }}" /></div>
                 </div>
-            {% endfor %}
-        </div>
+                <div class="col-md-10">
+                    <h2>{{ workshop.title }}</h2>
+                    <p>{{ workshop.body }}</p>
+                </div>
+            </div>
+            {% if forloop.rindex > 1 %}<hr/>{% endif %}
+        {% endfor %}
+        
     </div>
 </section>
 <section class="gray">

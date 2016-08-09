@@ -40,6 +40,8 @@ $(function(){
         $(this).parent().addClass('active');
     });
 
+    $('.carousel').carousel('pause');
+
     var images = $('.jobs-hero').find('img');
     if (images.length > 1) {
         var total = images.length;

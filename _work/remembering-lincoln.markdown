@@ -3,6 +3,7 @@ layout:     work
 title:      "Remembering Lincoln"
 thumb:      "/images/uploads/remembering-lincoln-thumb.png"
 color:      be1e2d
+date:       2015-04-19
 contact:    Michael Tedeschi
 
 awards:

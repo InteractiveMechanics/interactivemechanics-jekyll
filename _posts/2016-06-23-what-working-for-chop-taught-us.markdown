@@ -6,7 +6,7 @@ author:     Michael Tedeschi
 category:   Process
 thumb:      "/images/uploads/accessible-world-thumb.jpg"
 summary: |
-    A primary rule of developing any tool, digital or otherwise, is to start by thinking about who is using it and under what circumstances. Recently, we had a chance to design some games or children with physical and mental disabilities. In partnership with the Children's Hospital of Philadelphia (CHOP), we developed a series of hands-free interactive games for the waiting areas in CHOP’s new Buerger Center for Advanced Pediatric Care.
+    A primary rule of developing any tool, digital or otherwise, is to start by thinking about who is using it and under what circumstances. Recently, we had a chance to design some games for children with physical and mental disabilities. In partnership with the Children's Hospital of Philadelphia (CHOP), we developed a series of hands-free interactive games for the waiting areas in CHOP’s new Buerger Center for Advanced Pediatric Care.
 
 ---
 

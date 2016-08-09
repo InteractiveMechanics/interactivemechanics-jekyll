@@ -3,6 +3,7 @@ layout:     work
 title:      "College Women"
 thumb:      "/images/uploads/college-women-thumb.jpg"
 color:      24a9e1
+date:       2014-12-14
 contact:    Michael Tedeschi
 
 client:
