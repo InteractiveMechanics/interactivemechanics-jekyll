@@ -52,11 +52,13 @@
         h5 { 
             color: white;
             position: absolute;
-            top: 70px;
+            top: 60px;
             text-align: center;
             left: 0;
             right: 0;
-            padding: 0 30px;
+            padding: 0 50px;
+            font-size: 1.6rem;
+            text-shadow: 0 0 4px rgba(0,0,0,0.5);
 
             @media screen and #{$screen-md} {
                 top: 50px;

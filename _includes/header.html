@@ -6,10 +6,18 @@
                 {% assign sorted_pages = site.pages | sort:"weight" %}
                 {% for node in sorted_pages %}
                     {% if node.in_nav == true %}
-                        <li {% if page.url contains node.url %}class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+                        <li {% if page.url contains node.url %}class="active"{% endif %}>
+                            <a href="{{ node.url | prepend: site.baseurl }}">
+                                {% if node.navtitle %}
+                                    {{ node.navtitle }}
+                                {% else %}
+                                    {{ node.title }}
+                                {% endif %}
+                            </a>
+                        </li>
                     {% endif %}
                 {% endfor %}
-                <li><a href="/fellowship">Fellowship</a></li>
+                <li class="callout-nav"><a href="/fellowship">Fellowship</a></li>
             </ul>
         </div>
     </div>

@@ -1,12 +1,13 @@
 ---
 layout:         page
-title:          Workshops
+title:          Workshops & Webinars
+navtitle:       Workshops
 permalink:      workshops/
 weight:         4
 in_nav:         true
 
 summary: |
-    We've learned a lot from our client projects, and we love sharing information about our process, tools, tips and tricks. We offer monthly lunch and learns that feature hands-on activities, group conversations, and templates to take with you. We're always interested in hearing what you want to learn next!
+    We've learned a lot from our client projects, and we love sharing information about our process, tools, tips and tricks. We offer webinars, hands-on workshops, lunch and learns, and tailored in-house programs, all designed to expand your understanding of the design process and possibilities. We're always interested in hearing what you want to learn next! 
 
 callout:
     title:      In-house Workshops
@@ -22,8 +23,7 @@ callout:
             {% for workshop in site.data.workshops %}
                 <div class="col-md-4">
                     <a class="article image" href="{{ workshop.url }}">
-                        <img src="{{ workshop.image }}" />
-                        <div class="overlay" style="background: {{ workshop.color }};"></div>
+                        <div class="overlay" style="background-image: url({{ workshop.image }});"></div>
                         <div class="article-container">
                             <h5>{{ workshop.date }}<span class="divider"></span>{{ workshop.time }}<span class="divider"></span>{{ workshop.cost }}</h5>
                             <h2>{{ workshop.title }}</h2>

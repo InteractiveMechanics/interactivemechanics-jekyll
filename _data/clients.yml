@@ -3,6 +3,8 @@ nonprofit:
     orgs:
         
         - name: "Art Libraries Society of North America"
+        - name: "Art Sanctuary"
+        - name: "College of Physicians of Philadelphia"
         - name: "DC Public Library"
         - name: "Eastern State Penitentiary"
         - name: "Fairmount Water Works"
@@ -30,6 +32,7 @@ education:
         - name: "South Central Kansas Library System"
         - name: "The Council on Library and Information Resources"
         - name: "The National Institute for Technology in Liberal Education"
+        - name: "University of Pennsylvania"
 
 care:
     title: Care & Social Impact
@@ -38,8 +41,8 @@ care:
         - name: "CanSurround"
         - name: "Center for Applied Research"
         - name: "Children's Hospital of Philadelphia"
-        - name: "College of Physicians of Philadelphia"
         - name: "Grand Round Table"
+        - name: "People's Emergency Center"
         - name: "Physician Assistant Education Association"
         - name: "ROAR for Good"
         - name: "University of Michigan Social Venture Fund"

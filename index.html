@@ -35,7 +35,7 @@ layout:     default
                 <div class="col-md-3">
                     <a href="/services/#{{ service.short }}" class="service-block">
                         {% assign icon = service.image %}
-                        <div class="thumb"><img src="{{ icon }}" alt="{{ service.title }}" /></div>
+                        <div class="overlay" style="background-image: url({{ icon }})"></div>
                         <h5>{{ service.title }}</h5>
                     </a>
                 </div>

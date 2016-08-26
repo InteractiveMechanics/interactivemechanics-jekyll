@@ -1,18 +1,19 @@
 - title:    Web Design & Development
   short:    web
   image:    "/images/uploads/focus-web.jpg"
-  link:     "mayors-fund-philadelphia"
+  link:     "remembering-lincoln"
   body:     "We've built online exhibits, archives, and marketing websites for organizations of all sizes, and we take pride in making each website we build responsive, beautiful, and user-centered, using technologies including Drupal, WordPress, and Angular.js. We're listeners and fast learners, so we're adept at tailoring your website to support your unique vision and content. We've worked with punk archives with DC Public Library and with materials about President Lincoln from collections across the nation at [Ford's Theatre](/work/remembering-lincoln), and we're excited to hear more about the amazing work you're doing."
 
 - title:    Interactive Exhibits
   short:    exhibits
   image:    "/images/uploads/focus-exhibits.jpg"
-  link:     "wait-play-learn"
+  link:     "prisons-today"
   body:     "We design and build exhibits that get visitors excited to learn and passionate about your story. We build for a range of digital media, from touchscreen kiosks to projections to large-scale interactive tables, and using HTML5 Canvas and WebGL, Unity, and Microsoft's Kinect SDK v2. We've built an interactive exhibit with the [Philadelphia Museum of Art](/work/pma-rice-room) and a series of hands-free interactive games with the [Children's Hospital of Philadelphia](/work/wait-play-learn). What can we build for you?"
 
 - title:    Mobile Applications
   short:    mobile
   image:    "/images/uploads/focus-mobile.jpg"
+  link:     "digital-activity-guides"
   body:     "Our mobile solutions include iOS and Android native apps, PhoneGap, React, and simple, well-crafted responsive web applications. We're here to walk you through the options, keeping your strategic goals and your budget in mind. We've also worked with organizations to integrate iBeacon and Eddystone protocols for location-aware beacons. We're excited about phased projects and prototypes, and we're proud to have collaborated with projects such as ROAR for Good and Classicizing Philadelphia with Bryn Mawr College."
 
 - title:    Workshops & Training

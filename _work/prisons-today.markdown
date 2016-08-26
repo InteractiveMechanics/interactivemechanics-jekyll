@@ -1,6 +1,6 @@
 ---
 layout:     work
-title:      "Prisons Today: Prisons in the Age of Mass Incarceration"
+title:      "Prisons Today: Questions in the Age of Mass Incarceration"
 thumb:      "/images/uploads/prisons-today-thumb.jpg"
 color:      D81921
 date:       2016-08-08
