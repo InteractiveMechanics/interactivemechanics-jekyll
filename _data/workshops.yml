@@ -7,6 +7,15 @@
     type:       "Webinar"
     cost:       "FREE"
 
+  - title:      "Building a Product Definition Document"
+    url:        "http://interactivemech.enterthemeeting.com/m/CXZ4R7QB"
+    image:      "/images/uploads/workshop-ux-museums.jpg"
+    color:      "#C71521"
+    date:       "October 12, 2016"
+    time:       "2:00PM"
+    type:       "Workshop"
+    cost:       "$30"
+
   - title:      "Open Office Hours at Corzo Center"
     url:        "http://corzocenter.uarts.edu/programs/consulting"
     image:      "/images/uploads/corzo-center-thumb.jpg"
