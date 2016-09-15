@@ -119,7 +119,6 @@ callout:
     <div class="container">
         <h5 class="gold-text">All Open Positions</h4>
             <hr/>
-            {% comment %}
                 {% if site.data.jobs %}
                     {% for job in site.data.jobs %}
                         <h2 class="job-title">{{ job.title }} <small>{{ job.subtitle }}</small> {% include icons/icon_arrow_right.html %}</h2>
@@ -176,8 +175,6 @@ callout:
                         </div>
                     </div>
                 {% endif %}
-            {% endcomment %}
-            <h2 class="job-title"><a href="/fellowship">2016 Design & Development Fellows <small>Part-time in Philadelphia</small> {% include icons/icon_arrow_right.html %}</a></h2>
             <hr/>
         </div>
     </div>
