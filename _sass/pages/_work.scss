@@ -56,6 +56,10 @@
         .callout-divider {
             margin: 30px -30px;
             border-bottom: 2px solid white;
+            display: none;
+        }
+        img + .callout-divider {
+            display: block;
         }
     }
     .about-project {
@@ -69,7 +73,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            opacity: 0.75;
+            opacity: 0.85;
             z-index: 1;
         }
         .container {
