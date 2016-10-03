@@ -75,7 +75,7 @@ $(function(){
             "Lots of love from Philly.",
             "Cheesesteaks for everyone!",
             "#snacktacular",
-            "Enjoy the warm weather!",
+            "It's pumpkin spice season.",
             "Check out our upcoming webinars."
         ];
         var random = Math.floor(Math.random() * footer.length);    
