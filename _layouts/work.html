@@ -132,9 +132,9 @@ layout:     default
             </div>
         </div>
         <div class="row">
-            {% for work in site.work | limit:3 %}
-                {% unless page.url == work.url %}
-                    {% assign project = work %}
+            {% assign work = site.work | sort: 'date', 'last' %}
+            {% for project in work | limit:3 %}
+                {% unless page.url == project.url %}
                     {% include inc_work.html %}
                 {% endunless %}
             {% endfor %}
