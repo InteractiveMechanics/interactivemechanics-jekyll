@@ -47,9 +47,9 @@ process:
           alt:      
 
     body: |
-        We built surfacedesign.org in Wordpress using various plug ins and integrations to provide more robust user and admin experiences. We used [Events Calendar Pro](https://theeventscalendar.com/product/wordpress-events-calendar-pro/) to build a searchable calendar, allowing members to find events near them. We also included a custom social media feed on the home page, displaying both Twitter and Instagram posts, in a way that encourages user engagement and adheres to the visual design concept.
+        We built surfacedesign.org in Wordpress using various plugins and integrations to provide more robust user and admin experiences. We used [Events Calendar Pro](https://theeventscalendar.com/product/wordpress-events-calendar-pro/) to build a searchable calendar, allowing members to find events near them. We also included a custom social media feed on the home page, displaying both Twitter and Instagram posts, in a way that encourages user engagement and adheres to the visual design concept.
 
-        We also used SDA's customer relationship management system, NeonCRM, in a variety of ways. The custom member directory pulls all current members directly from NeonCRM and allows search and filtering by location, artist medium, and name. We also integrated NeonCRM's [sign-in plug](https://wordpress.org/plugins/neoncrm-sign-in/) in paired with an advanced system of permissions and roles, allowing members to manage their own online galleries as well as their membership from a single login.
+        We also used SDA's customer relationship management system, NeonCRM, in a variety of ways. The custom member directory pulls all current members directly from NeonCRM and allows search and filtering by location, artist medium, and name. We also integrated NeonCRM's [sign-in plugin](https://wordpress.org/plugins/neoncrm-sign-in/) paired with an advanced system of permissions and roles, allowing members to manage their own online galleries as well as their membership from a single login.
 
 outcome:
     title:          "A Streamlined Experience"
