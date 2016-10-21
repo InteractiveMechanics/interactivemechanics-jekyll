@@ -3,7 +3,7 @@ layout:     post
 title:      "Drupal 8: The Good, The Not-so-good, and The Still Coming"
 date:       2016-10-03
 author:     Michael Tedeschi
-category:   Tools And Tech
+category:   Tools and Tech
 thumb:      "/images/uploads/drupal-good-bad-thumb.png"
 summary: |
     We've had the opportunity to use Drupal 8  on a handful of projects since its release last November. While our general impression of the latest version is favorable, we've had our ups and downs. As you consider using D8 on your upcoming projects, here are the features that we love, some problem areas, and our experience on recent work.
