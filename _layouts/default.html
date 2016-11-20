@@ -4,32 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.summary %}{{ page.summary | markdownify | strip_html }}{% else %}{{ site.description | markdownify | strip_html }}{% endif %}">
 
     <meta name="p:domain_verify" content="9913a0f3e8a64539388abe3a5f299e6a"/>
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:image" content="{{ "/images/icons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
-    <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
-
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@interactivemech">
     <meta name="twitter:creator" content="@interactivemech">
     {% if page.title %}
-        <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}">
+        <meta property="og:title" content="{{ page.title }} - {{ site.title }}">
     {% else %}
-        <meta name="twitter:title" content="{{ site.title }}">
+        <meta property="og:title" content="{{ site.title }}">
     {% endif %}
 
     {% if page.summary %}
-        <meta name="twitter:description" content="{{ page.summary }}">
+        <meta property="og:description" content="{{ page.summary | markdownify | strip_html }}">
     {% else %}
-        <meta name="twitter:description" content="{{ site.description }}">
+        <meta property="og:description" content="{{ site.description | markdownify | strip_html }}">
     {% endif %}
 
     {% if page.thumb %}
-        <meta name="twitter:image" content="{{ page.thumb }}">
+        <meta property="og:image" content="{{ site.url }}{{ page.thumb }}">
     {% else %}
-        <meta name="twitter:image" content="{{ site.thumb }}">
+        <meta property="og:image" content="{{ site.url }}{{ site.thumb }}">
     {% endif %}
 
     <title>
