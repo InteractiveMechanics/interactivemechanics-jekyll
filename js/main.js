@@ -75,7 +75,7 @@ $(function(){
             "Lots of love from Philly.",
             "Cheesesteaks for everyone!",
             "Happy Holidays!",
-            "It's pumpkin spice season."
+            "New Year, New You."
         ];
         var random = Math.floor(Math.random() * footer.length);    
     

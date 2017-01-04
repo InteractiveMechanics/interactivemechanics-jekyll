@@ -31,6 +31,7 @@ about:
 process:
     title:          "Interactive Education"
     images:
+        - video:    "https://player.vimeo.com/video/196292745"
         - image:    "/images/uploads/prisons-today-screen-01.jpg"
           alt:      "Prisons Today: Prisons in the Age of Mass Incarceration"
         - image:    "/images/uploads/prisons-today-screen-02.jpg"

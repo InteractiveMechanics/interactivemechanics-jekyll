@@ -31,6 +31,7 @@ about:
 process:
     title:          "Gamification and Critical Thinking"
     images:
+        - video:    "https://player.vimeo.com/video/194876942"
         - image:    "/images/uploads/fww-digital-activity-screen-01.jpg"
           alt:      
         - image:    "/images/uploads/fww-digital-activity-screen-02.jpg"
