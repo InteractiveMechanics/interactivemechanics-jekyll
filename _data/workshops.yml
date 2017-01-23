@@ -7,6 +7,15 @@
     type:       "Webinar"
     cost:       "FREE"
 
+  - title:      "Understanding the Digital Design Process"
+    url:        "http://interactivemech.enterthemeeting.com/m/BPK2RBJR"
+    image:      "/images/uploads/workshop-digital-design.jpg"
+    color:      "#C71521"
+    date:       "Feb 22, 2017"
+    time:       "3:00PM"
+    type:       "Webinar"
+    cost:       "FREE"
+
   - title:      "Open Office Hours at Corzo Center"
     url:        "http://corzocenter.uarts.edu/programs/consulting"
     image:      "/images/uploads/corzo-center-thumb.jpg"
