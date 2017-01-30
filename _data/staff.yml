@@ -21,7 +21,7 @@
 
 
   - name:       Jeff Majek
-    title:      Lead UI Engineer
+    title:      Senior UI Engineer
     color:      '#E0E1E5'
     bio:        "Jeff has a strong background in full-stack web development and user experience. After graduating with a degree in Computer Science from Rowan University, Jeff worked with the Internet Video Archive, where he maintained consumer and internal apps and sites. He attends local hackathons and development events, and was a key contributor to WaterSafe at Random Hacks of Kindness, an open source tool to inform citizens about the safety of their drinking water."
     thumb:      '/images/staff/thumb_majek.jpg'
@@ -57,3 +57,16 @@
     twitter:    
         url:    https://twitter.com/amberastronaut
         handle: '@amberastronaut'
+
+  - name:       Ebonie Butler
+    title:      '2016 Fellow'
+    thumb:      '/images/staff/thumb_butler.jpg'
+
+  - name:       Candace Worthen
+    title:      '2016 Fellow'
+    thumb:      '/images/staff/thumb_worthen.jpg'
+
+  - name:       Madilynn Whittle
+    title:      '2016 Fellow'
+    thumb:      '/images/staff/thumb_whittle.jpg'
+
