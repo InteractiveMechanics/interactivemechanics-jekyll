@@ -14,6 +14,8 @@ At the start of each day, my motivation is incredibly high. I honestly do believ
 
 Although I’ve been actively working to knock out this mentality over the past couple years, I truly had to conquer it when I was accepted into the Interactive Mechanics Fellowship Program. I’ve always been interested in web development and have taken online courses here and there. But I’d actually never *built* a project. I was stuck in this cycle where I felt like I didn’t know enough to start coding a project, so I’d use tutorial hopping as an avoidance maneuver. But now it was time to make that big leap. 
 
+![Ebonie Butler - Combating the All Or Nothing Mentality](/images/uploads/combating-mentality-ebonie.jpg)
+
 At first, it gave me a lot of anxiety to think of an original prototype for my project. I chose to redesign my current music blog from scratch and re-integrate it on my pre-existing Wordpress framework. Not only would I be using HTML, CSS and Javascript, I’d also be using PHP and Wordpress to create and activate an entirely new theme. I cannot tell you how many times I second guessed myself in the beginning. Is this the most efficient way to code this? Ugh, I’m probably doing it the wrong way. This design is so elementary. There goes the negative thinking again.
 
 It was about a month into the fellowship that I realized I needed to execute my first combative gesture: Re-evaluate and prioritize my goals and aspirations. And with my full-time position as a test engineer eating up on average 50 hours a week, I needed to keep that list short.
