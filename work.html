@@ -5,6 +5,10 @@ navtitle:       Work
 permalink:      work/
 weight:         3
 in_nav:         true
+services:
+    - Web Design & Development
+    - Mobile Design & Development
+    - Interactive Exhibit
 nextpage:
     title:      Contact us
     body: |
@@ -16,8 +20,14 @@ nextpage:
 <section class="page-title">
     <div class="container">
         <h1>Featured work</h1>
+        <ul id="news-filters" class="list-inline">
+            <li class="active"><a data-category-filter="all">All Case Studies</a></li>
+            {% for service in page.services %}
+                <li><a data-category-filter="{{ service | downcase | replace:' ','-' | replace:'&','' | replace:'--','-' }}">{{ service | capitalize }}</a></li>
+            {% endfor %}
+        </ul>
     </div>
-    <div class="container">
+    <div class="container news">
         <div class="row">
             {% assign work = site.work | sort: 'date', 'last' %}
             {% for project in work reversed %}

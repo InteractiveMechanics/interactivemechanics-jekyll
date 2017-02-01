@@ -1,6 +1,6 @@
 ---
 layout:     work
-title:      "Rice Room Interactives"
+title:      "Widener Rice Room Interactive"
 thumb:      "/images/uploads/pma-thumb.jpg"
 color:      CEAF70
 date:       2015-08-01
@@ -16,8 +16,7 @@ technology:
     - WebGL
     - Jekyll
 
-services:
-    - Interactive Exhibits
+services:       Interactive Exhibit
 
 summary: |
     As part of the re-installation of "Drawing Room from a Town House: 901 Fifth Avenue, New York City," the Philadelphia Museum of Art reached out to us to create a pair of high resolution digital interactives to allow visitors to take a closer look at 66 of the room’s objects.

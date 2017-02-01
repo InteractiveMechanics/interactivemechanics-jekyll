@@ -22,8 +22,7 @@ technology:
     - Drupal
     - LocalStorage
 
-services:
-    - Web Design & Development
+services:       Web Design & Development
 
 summary: |
     Ford's Theatre wanted to support the 150th anniversary of the Lincoln assassination with an online digital archive and exhibit. We collaborated with their digital projects and education teams to conceptualize, design, and develop a responsive site that could be displayed across a range of screen sizes, including touch screen displays in the museum.

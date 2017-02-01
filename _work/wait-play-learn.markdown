@@ -1,6 +1,6 @@
 ---
 layout:     work
-title:      "Wait-Play-Learn Digital Experiences"
+title:      "Wait-Play-Learn Interactive Games"
 thumb:      "/images/uploads/chop-thumb.jpg"
 color:      51b6c8
 date:       2015-07-14
@@ -15,11 +15,10 @@ technology:
     - Microsoft Kinect v2 SDK
     - HTML5 Canvas
 
-services:
-    - Interactive Exhibits
+services:       Interactive Exhibit
 
 summary: |
-    We worked with the Children's Hospital of Philadelphia (CHOP) to create the Wait Play Learn Digital Interactive Pods, a series of hands-free interactive games for the waiting areas in their new facility, using HTML5 Canvas, JavaScript, and Microsoft's Kinect SDK v2. Our work with CHOP highlights our dedication to user experience and our passion for learning.
+    We worked with the Children's Hospital of Philadelphia (CHOP) to create the Wait-PlayLearn Digital Interactive Games, a series of hands-free experiences for the waiting areas in their new facility, using HTML5 Canvas, JavaScript, and Microsoft's Kinect SDK v2. Our work with CHOP highlights our dedication to user experience and our passion for learning.
 
 process:
     title:          Kid-Friendly & Accessible
@@ -36,7 +35,7 @@ process:
           alt:      Wait-Play-Learn Digital Experiences
 
     body: |
-        Usability was a prime concern for Wait Play Learn: since the interactives are in a medical setting for children, we needed to design them to be kid friendly, and accessible to children with physical and mental disabilities. We conducted several rounds of user testing with children ages 6 to 14 where we were able to test range of motion, mobility, learnability, and of course, fun. One participant, Alexa, tested the games during her physical therapy&mdash;she was shy, quiet, and unable to walk by herself. At the end of the testing session, her mood improved and she felt confident enough to show us that she could walk by herself (to her grandmother's delight).
+        Usability was a prime concern for Wait-Play-Learn: since the interactives are in a medical setting for children, we needed to design them to be kid friendly, and accessible to children with physical and mental disabilities. We conducted several rounds of user testing with children ages 6 to 14 where we were able to test range of motion, mobility, learnability, and of course, fun. One participant, Alexa, tested the games during her physical therapy&mdash;she was shy, quiet, and unable to walk by herself. At the end of the testing session, her mood improved and she felt confident enough to show us that she could walk by herself (to her grandmother's delight).
 
         We had our challenges. The technology is new and not well-documented, which led us to develop many of the required features from scratch, and in a very short timeframe, with less than three months to design, develop and install the first two interactives. The weekend of the installation, our team was at CHOP for over 12 hours. But we're not complaining: our end result was the creation of several fun and motivational games that get kids moving and learning.
 

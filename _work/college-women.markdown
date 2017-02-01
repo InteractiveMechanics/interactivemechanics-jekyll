@@ -19,8 +19,7 @@ technology:
     - Apache Solr
     - OAI-PMH
 
-services:
-    - Web Design & Development
+services:       Web Design & Development
 
 summary: |
     Working with Bryn Mawr College's Special Collections Department, we designed and built College Women, a curated collection of materials related to the history of women's education from the Seven Sisters schools.

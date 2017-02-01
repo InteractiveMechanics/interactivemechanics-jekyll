@@ -44,9 +44,22 @@
         }
     }
 
+    .label {
+        background-color: white;
+        color: #337ab7;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 11px;
+        position: absolute;
+        border-radius: 0;
+        padding: 8px 10px 8px;
+        bottom: 0;
+    }
     .work-container {
         position: relative;
         z-index: 10;
+        height: 100%;
     }
     .overlay {
         position: absolute;
@@ -70,6 +83,16 @@
             opacity: 0.7;
             width: 100%;
             transition: 0.5s all;
+        }
+
+        &.web-design-development:after {
+            background-color: #3ab2c4;
+        }
+        &.mobile-design-development:after {
+            background-color: #3b599a;
+        }
+        &.interactive-exhibit:after {
+            background-color: #b83f78;
         }
     }
 }

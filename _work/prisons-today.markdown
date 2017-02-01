@@ -16,8 +16,7 @@ technology:
     - JavaScript
     - iPad Pro
 
-services:
-    - Interactive Exhibits
+services:       Interactive Exhibit
 
 summary: |
     Eastern State Penitentiary is a museum in the ruins of one of America's oldest prisons. Their [critically-acclaimed](http://articles.philly.com/2016-05-05/entertainment/72835370_1_mass-incarceration-prison-inmates-eastern-state-penitentiary) exhibit *Prisons Today* presents current issues within the justice and corrections system. As part of the exhibit design process, we developed two digital interactives displayed on iPad Pros using HTML5 and JavaScript.

@@ -1,10 +1,10 @@
 ---
 layout:     work
-title:      "The Public Classroom at the Penn Museum"
+title:      "The Public Classroom: Science & Race"
 thumb:      "/images/uploads/ppc-thumb.jpg"
 color:      144984
 date:       2016-11-28
-contact:    Amber Reeves
+contact:    Amelia Longo
 
 client:
     name:       "Penn Museum of Archaeology & Anthropology"
@@ -20,8 +20,7 @@ technology:
     - Bootstrap
     - Grunt
 
-services:
-    - Web Design & Development
+services:       Web Design & Development
 
 summary: |
     The University of Pennsylvania Museum of Archaeology & Anthropology needed a new website to promote and host the Public Classroom, a new collaborative educational program based on the intersection of science and race. We built a responsive site to accommodate the in person and remote attendees of program lectures, and developed related content for increased engagement.

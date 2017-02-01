@@ -18,8 +18,7 @@ technology:
     - Mapbox
     - Flexbox
 
-services:
-    - Web Design & Development
+services:       Web Design & Development
 
 summary: |
     The Great Migration Project explores the historic tide of African Americans who moved North to Philadelphia in the early 1900s. Scribe Video Center needed a website to showcase their commissioned media arts works, and to provide context and history for the project. We collaborated with their team to develop a custom Drupal site optimized for storytelling through rich media.

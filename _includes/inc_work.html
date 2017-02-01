@@ -1,17 +1,13 @@
-<div class="col-md-4">
+<div class="col-md-4 news-container active" data-category={{ project.services | downcase | replace:' ','-' | replace:'&','' | replace:'--','-' }}>
     <a class="work" href="{{ project.url }}">
-        <div class="overlay" style="background-image: url({{ project.thumb }});"></div>
+        <div class="overlay {{ project.services | downcase | replace:' ','-' | replace:'&','' | replace:'--','-' }}" style="background-image: url({{ project.thumb }});"></div>
         
         <div class="work-container">
             <h5>
-                {% for service in project.services %}
-                    {{ service }}
-                    {% if forloop.rindex > 1 %}
-                        <span class="divider"></span>
-                    {% endif %}
-                {% endfor %}
+                {% if project.client.name != project.title %} {{ project.title }}<span class="divider"></span> {% endif %}
+                {{ project.services }}
             </h5>
-            <h2>{{ project.title }}</h2>
+            <h2>{{ project.client.name }}</h2>
         </div>
     </a>
 </div>

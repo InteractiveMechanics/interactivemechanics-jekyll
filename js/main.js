@@ -39,6 +39,20 @@ $(function(){
         }
         $(this).parent().addClass('active');
     });
+    $(document).on('click', 'a[data-category-filter]', function() {
+        var category = $(this).attr('data-category-filter');
+        var $news = $('.work');
+        var $tabs = $('#news-filters');
+
+        $tabs.find('li').removeClass('active');
+        $news.find('.news-container').removeClass('active');
+        if (category == 'all') {
+            $news.find('.news-container').addClass('active');
+        } else {
+            $news.find('[data-category = ' + category + ']').addClass('active');
+        }
+        $(this).parent().addClass('active');
+    });
 
     $('.carousel').carousel('pause');
 

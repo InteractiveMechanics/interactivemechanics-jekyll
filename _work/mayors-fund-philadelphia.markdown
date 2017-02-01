@@ -18,8 +18,7 @@ technology:
     - HTML5
     - WordPress
 
-services:
-    - Web Design & Development
+services:       Web Design & Development
 
 summary: |
     In late fall 2014, the Mayor's Fund for Philadelphia engaged Interactive Mechanics to redesign and rebuild its outdated website. Through a collaborative process involving design, development, and user testing, we created a custom WordPress site that helps the Fund effectively communicate its mission, programs, and impact.

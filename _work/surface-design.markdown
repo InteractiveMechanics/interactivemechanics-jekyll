@@ -1,6 +1,6 @@
 ---
 layout:     work
-title:      "Surface Design Association Website Redesign"
+title:      "Surface Design Association"
 thumb:      "/images/uploads/surface-design-thumb.jpg"
 color:      FAA628
 date:       2016-10-10
@@ -20,8 +20,7 @@ technology:
     - HTML5
     - Grunt
 
-services:
-    - Web Design & Development
+services:       Web Design & Development
 
 summary: |
     Surface Design Association promotes awareness and appreciation of textile inspired art and design, and they needed a new website to better suit the aesthetic of their members' work. We created a modern, streamlined website that makes resources easy to find and reflects the organization's craft and creativity.

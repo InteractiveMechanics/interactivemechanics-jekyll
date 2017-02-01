@@ -16,8 +16,7 @@ technology:
     - JavaScript
     - Kiosk Pro
 
-services:
-    - Mobile Design & Development
+services:       Mobile Design & Development
 
 summary: |
     The Fairmount Water Works' mission is to foster stewardship of our shared water resources by encouraging informed decisions about the use of land and water. They wanted a better way to educate students on clean water stewardship, so they partnered with us to develop a series of engaging interactive games that teach students about the relationship between Philadelphians and their watershed.

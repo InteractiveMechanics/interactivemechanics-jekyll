@@ -6,7 +6,7 @@ author:     Ebonie Butler
 category:   Process
 thumb:      "/images/uploads/combating-mentality-thumb.jpg"
 summary: |
-    As an perfectionist, it’s a constant struggle not to consider myself a failure if I don’t complete all 50 tasks I line up for the day.
+    As a perfectionist, it’s a constant struggle not to consider myself a failure if I don’t complete all 50 tasks I line up for the day.
 
 ---
 
