@@ -6,11 +6,11 @@ author:     Ebonie Butler
 category:   Process
 thumb:      "/images/uploads/combating-mentality-thumb.jpg"
 summary: |
-    As a perfectionist, it’s a constant struggle not to consider myself a failure if I don’t complete all 50 tasks I line up for the day.
+    The [Interactive Mechanics Fellowship Program](http://interactivemechanics.com/fellowship/) aims to build capacity for representation and inclusion in the technology field. We see it as a mutual learning experience for the fellows and for our existing team, so we’ve asked our fellows to share some of their expertise on our blog.
 
 ---
 
-At the start of each day, my motivation is incredibly high. I honestly do believe that I can do all 50 of those tasks. But by the end of the day, the guilt of only having completed 3-4 tasks settles in, and I throw in the towel in hopes that tomorrow will be the perfect day when I can do it all. *Spoiler alert: I never get my perfect day.*
+As a perfectionist, it’s a constant struggle not to consider myself a failure if I don’t complete all 50 tasks I line up for the day. At the start of each day, my motivation is incredibly high. I honestly do believe that I can do all 50 of those tasks. But by the end of the day, the guilt of only having completed 3-4 tasks settles in, and I throw in the towel in hopes that tomorrow will be the perfect day when I can do it all. *Spoiler alert: I never get my perfect day.*
 
 Although I’ve been actively working to knock out this mentality over the past couple years, I truly had to conquer it when I was accepted into the Interactive Mechanics Fellowship Program. I’ve always been interested in web development and have taken online courses here and there. But I’d actually never *built* a project. I was stuck in this cycle where I felt like I didn’t know enough to start coding a project, so I’d use tutorial hopping as an avoidance maneuver. But now it was time to make that big leap. 
 
