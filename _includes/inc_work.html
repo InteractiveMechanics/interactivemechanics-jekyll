@@ -4,10 +4,10 @@
         
         <div class="work-container">
             <h5>
-                {% if project.client.name != project.title %} {{ project.title }}<span class="divider"></span> {% endif %}
-                {{ project.services }}
+                {% if project.client.name != project.title %} {{ project.title }}{% endif %}
             </h5>
             <h2>{{ project.client.name }}</h2>
+            <span class="label">{{ project.services }}</span>
         </div>
     </a>
 </div>
