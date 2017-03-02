@@ -1,21 +1,24 @@
-#   - title:      'Project Manager'
-#     subtitle:   'Full-time in Philadelphia'
-#     body:       "We’re looking for a detail-oriented, personable **project manager** to work with our team **full-time (32-40 hours/week)** coordinating our digital projects. We’re aiming for a start date mid to late June.
-#                 <br><br>
-#                 You’ll play a key role in keeping our team and clients on track and on budget, coordinating deadlines and project deliverables, and managing tasks in Asana and schedules in Google Calendar. You’ll organize project assets and manage internal workflows. You’ll perform quality assurance on deliverables, develop project documentation, and conduct training so clients are clear about their role in the process and feel comfortable taking over projects. You’ll compile project presentations and case studies about our work. We’re a small team, so we all share other administrative responsibilities as needed. You will work closely with all members of our team, and you will report directly to the Creative Director. This role requires occasional travel for client meetings or business development opportunities."
-#     musthave:
-#       - skill:  'Proactive, reliable, organized, and detail-oriented'
-#       - skill:  'Comfortable interacting with coworkers, clients, and other stakeholders'
-#       - skill:  'Proficient with Google Apps (Gmail, Drive, and Calendar), Microsoft Office, and online project management tools like Asana or Basecamp'
-#       - skill:  'Excellent verbal and written communications skills'
-#       - skill:  'With 1-3 years of experience'
-#     nicetohave:
-#       - skill:  'Passionate about arts, culture, museums, and education'
-#       - skill:  'Experience with video production or photography to document processes like user testing and user research for use in case studies and marketing materials'
-#       - skill:  'Interest in or experience with evaluation to support user research or testing on projects'
-#       - skill:  'Comfortable with the Adobe Creative Suite'
-#       - skill:  'Excited to grow and develop new skills in design or technology'
-#       - skill:  'Interested in working with a small, close-knit team'
-#     send:
-#       - skill:  'Describe a project you worked on as a Project Manager or in a related role. (Provide a link if available.) Describe your role in this project, what your process was, how you handled any challenges you faced, and what you’re most proud of.'
-#       - skill:  'Your resume'
+  - title:      'Lead Developer'
+    subtitle:   'Full-time in Philadelphia'
+    link:       'https://interactive-mechanics.forms.fm/lead-developer'
+    process:     "Applications close on Feb 26, 2017. We’ll review all applications by March 1, at which point we’ll contact three applicants to schedule interviews (between March 13 and March 24), and we’ll share a technical challenge to be completed before your interview. We’ll make an offer late March for a May 1 start date. This schedule is of course subject to change, but it’s what we’re aiming for."
+    body:       "We’re looking for a supportive and responsible lead developer to work with our team full-time (32-40 hours/week) building our digital projects and managing our technical staff. We’re aiming for a start date of May 1.<br><br>
+                You’ll lead our development team to build interactive digital projects for web, mobile, and other systems using a wide range of technologies. You’ll be responsible for quality assurance on deliverables, for ensuring that project technical plans are carried out as agreed upon with the client, for managing project installations, and for ensuring that we’re meeting our overall technical goals as specified in our annual plan.<br><br>
+                You’ll supervise our Senior UI Engineer and our UX Developer, nurturing an appreciation for best practices through code reviews, pair programming, and regular meetings. You will report to the Creative Director.<br><br>
+                As part of project proposals and discovery phases, you’ll work with our Project Manager to create technical plans that consider each client’s and project’s needs, and you’ll support client development reviews. We have a collaborative process for both internal and external work, so you will work closely with other members of our team as well.<br><br>
+                This role requires occasional travel for client meetings."
+    musthave:
+      - skill:  'Experience building interactive applications and websites, with versatile technology capabilities. We expect you to have advanced capabilities with at least two of the following: JavaScript, PHP, Drupal, WordPress, Objective-C, Swift, Java, C++, or C#. Other technologies we value include HTML, CSS, Unity, Sass, Raspberry Pi, Particle Photon, Arduino, and Git.'
+      - skill:  'Deep understanding of coding standards and ability to communicate best practices'
+      - skill:  'Comfort developing project technical plans and functional specifications'
+      - skill:  'Strong time management skills and ability to manage multiple timelines/deadlines for simultaneous client projects'
+      - skill:  'Strong written and verbal communication for client and coworker communication'
+      - skill:  '3+ years of relevant development experience'
+      - skill:  '2+ years of experience managing and mentoring technical staff'
+    nicetohave:
+      - skill:  'Excited to grow and develop new skills in design or technology'
+      - skill:  'Passionate about arts, culture, museums, and education'
+      - skill:  'Interested in presenting on our projects at regional and national events'
+      - skill:  'Interested in systems administration or devops, or hardware, like microcontrollers'
+      - skill:  'Interested in working with a small, close-knit team in an agency environment'
+    salary:     'Salary negotiable ($65,000–$75,000) and commensurate with experience. Benefits include flexible hours, unlimited paid time off, health and dental insurance, public transit reimbursement, education and museum stipends, and snacks.'

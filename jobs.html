@@ -3,7 +3,7 @@ layout:         default
 title:          Jobs
 permalink:      jobs/
 weight:         5
-in_nav:         false
+in_nav:         true
 
 summary: |
     We're a small, close-knit group of designers, developers, and content specialists who build amazing things, and we'd love for you to join us.
@@ -144,27 +144,16 @@ callout:
                                 </ul>
                                 {% endif %}
         
-                                {% if job.send %}
-                                <p style="margin: 20px 0 0;"><strong>What to send</strong></p>
-                                <ul>
-                                    {% for s in job.send %}
-                                        <li>{{ s.skill }}</li>
-                                    {% endfor %}
-                                </ul>
-                                {% endif %}
-        
                                 <br>
-                                <p><em>Salary negotiable and commensurate with experience. Benefits include flexible hours, unlimited paid time off, matched retirement, public transit reimbursement, education and museum stipends, and snacks.</em></p>
+                                <p><em>{{ job.salary }}</em></p>
                             </div>
                             <div class="col-md-4">
                                 <div class="callout">
-                                    <h5>Are you a good fit?</h5>
-                                    <p>To apply, please email your materials in one attached document to jobs@interactivemechanics.com with the subject "{{ job.title }}". We don't need a cover letter.</p>
-                                    <a class="btn btn-default btn-block" target="_blank" href="mailto:jobs@interactivemechanics.com?subject={{ job.title | uri_escape }}">Apply Now! {% include icons/icon_arrow_right.html %}</a>
+                                    <h5>Interested in applying?</h5>
+                                    <a class="btn btn-default btn-block" target="_blank" href="{{ job.link }}">Apply Now! {% include icons/icon_arrow_right.html %}</a>
                                 </div>
                             </div>
                         </div>
-                        <hr/>
                     {% endfor %}
                 {% else %}
                     <br/>

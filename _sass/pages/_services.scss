@@ -99,6 +99,11 @@
         transition: $transition;
         height: 180px;
         overflow: hidden;
+
+        @media screen and #{$screen-xs} {
+            height: 120px;
+            margin-bottom: 20px;
+        }
     
         &:hover, &:active, &:focus {
             text-decoration: none;
