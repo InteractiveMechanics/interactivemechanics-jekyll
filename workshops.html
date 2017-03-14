@@ -38,14 +38,14 @@ callout:
     <div class="container">
         <h1>Past Workshops & Webinars</h1>
         
-        {% for workshop in site.data.pastworkshops %}
+        {% for workshop in site.workshops %}
             <div class="row workshop">
                 <div class="col-md-2">
-                    <div class="workshop-image"><img src="{{ workshop.image }}" /></div>
+                    <a class="workshop-image" href="{{ workshop.url }}"><img src="{{ workshop.thumb }}" /></a>
                 </div>
                 <div class="col-md-10">
-                    <h2>{{ workshop.title }}</h2>
-                    <p>{{ workshop.body }}</p>
+                    <h2><a href="{{ workshop.url }}">{{ workshop.title }}</a></h2>
+                    <p>{{ workshop.teaser }}</p>
                 </div>
             </div>
             {% if forloop.rindex > 1 %}<hr/>{% endif %}

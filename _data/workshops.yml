@@ -7,6 +7,15 @@
     type:       "Workshop"
     cost:       "$40"
 
+  - title:      "Community Engagement through User Experience"
+    url:        "https://interactivemechanics.ticketleap.com/community-engagement-through-user-experience/"
+    image:      "/images/uploads/workshop-ux-museums.jpg"
+    color:      "#C71521"
+    date:       "Apr 27, 2017"
+    time:       "2:00PM"
+    type:       "Workshop"
+    cost:       "$40"
+
   - title:      "Open Office Hours at Corzo Center"
     url:        "http://corzocenter.uarts.edu/programs/consulting"
     image:      "/images/uploads/corzo-center-thumb.jpg"

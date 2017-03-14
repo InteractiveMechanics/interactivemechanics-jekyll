@@ -1,0 +1,56 @@
+---
+layout:     default
+---
+
+<section>
+    <div class="container">
+        <div class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <div class="row">
+            <div class="col-md-8">{% if page.summary %}<h2>{{ page.summary }} {% include icons/icon_endnote.html %}</h2>{% endif %}</div>
+            {% if page.callout %}
+                <div class="col-md-4">
+                    <div class="callout">
+                        <h5>{{ page.callout.title }}</h5>
+                        {{ page.callout.body | markdownify }}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+        </div>
+        <article>
+            <div class="row">
+                <div class="col-md-8 post-content">
+                    {% if page.about.video %}
+                        <iframe src="https://player.vimeo.com/video/{{ page.about.video }}" class="workshop-video" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    {% endif %}
+                    {% if page.about.quote %}
+                        <blockquote class="workshop-quote">{{ page.about.quote }}</blockquote>
+                    {% endif %}
+                    {{ page.description | markdownify }}
+                
+                    {% if page.resources %}
+                        <h5>Resources</h5>
+                        <ul class="resources">
+                            {% for resource in page.resources %}
+                                <li><a href="{{ resource.link }}" target="_blank">{{ resource.title }} {% include icons/icon_arrow_right.html %}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                <aside class="col-md-4 post-sidebar">
+                    <h5>Presented By</h5>
+                    {% for staff in site.data.staff %}
+                        {% assign index = forloop.index | minus:1 %}
+                        {% if page.author == site.data.staff[index].name %}
+                            {% assign person = site.data.staff[index] %}
+                            {% include inc_metadata.html %}
+                        {% endif %}
+                    {% endfor %}
+                </aside>
+            </div>
+        </article>
+    </div>
+</section>
+
+{% include inc_nextpage.html %}

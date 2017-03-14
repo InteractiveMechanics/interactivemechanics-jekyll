@@ -66,14 +66,15 @@ layout:     default
 </section>
 <section class="gray">
     <div class="container">
-        <h1>Recent Posts</h1>
+        <h1>Featured Work</h1>
         <div class="row">
-            {% for post in site.posts limit:3 %}
-                {% include inc_article.html %}
+            {% assign work = site.work | sort: 'date' | reverse %}
+            {% for project in work limit:3 %}
+                {% include inc_work.html %}
             {% endfor %}
         </div>
     </div>
     <div class="container text-center">
-        <a href="/news" class="btn btn-default text-center">Read all news {% include icons/icon_arrow_right.html %}</a>
+        <a href="/work" class="btn btn-default text-center">See all work {% include icons/icon_arrow_right.html %}</a>
     </div>
 </section>

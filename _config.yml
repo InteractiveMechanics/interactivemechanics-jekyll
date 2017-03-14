@@ -10,6 +10,9 @@ collections:
   work:
     output:     true
     permalink:  /work/:path/
+  workshops:
+    output:     true
+    permalink:  /workshops/:path/
 
 # Build settings
 #url:           "http://localhost:4000"
