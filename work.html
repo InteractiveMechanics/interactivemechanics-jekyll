@@ -40,14 +40,10 @@ nextpage:
 <section class="gray clients">
     <div class="container">
         <h2>Selected Clients</h2>
-        <div class="row">
-            {% for clients in site.data.clients %}
-                <div class="col-md-4">
-                    <h5>{{ clients[1].title }}</h5>
-                    {% for org in clients[1].orgs %}
-                        <p>{{ org.name }}</p>
-                    {% endfor %}
-                </div>
+        <div class="grid-container">
+            {% assign clients = (site.data.clients | sort: 'name') %}
+            {% for client in clients %}
+                <p>{{ client.name }}</p>
             {% endfor %}
         </div>
     </div>

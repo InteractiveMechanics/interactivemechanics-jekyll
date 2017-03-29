@@ -1,6 +1,6 @@
 ---
 layout:     workshops
-title:      "Community Engagement through User Experience"
+title:      "User Experience for Museums"
 thumb:      "/images/uploads/workshop-ux-museums.jpg"
 author:    Michael Tedeschi
 
