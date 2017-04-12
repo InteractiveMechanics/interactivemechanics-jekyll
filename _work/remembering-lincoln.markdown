@@ -24,6 +24,12 @@ technology:
 
 services:       Web Design & Development
 
+quote:
+    - name:       David McKenzie
+      title:      Associate Director for Interpretive Resources<br>Ford's Theatre
+      body: |
+          Remembering Lincoln would not be the robust, award-winning website that it is without Interactive Mechanics. Interactive Mechanics has been an amazing partner&mdash;not just a vendor&mdash;throughout the process. They thoroughly understand how to turn broad objectives into technological reality.
+
 summary: |
     Ford's Theatre wanted to support the 150th anniversary of the Lincoln assassination with an online digital archive and exhibit. We collaborated with their digital projects and education teams to conceptualize, design, and develop a responsive site that could be displayed across a range of screen sizes, including touch screen displays in the museum.
 

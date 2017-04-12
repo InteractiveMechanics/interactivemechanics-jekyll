@@ -37,6 +37,10 @@ pre {
     text-align: center;
     min-height: 425px;
 
+    .process + & {
+        border: none;
+    }
+
     h2 {
         color: white;
         margin-bottom: 30px;
