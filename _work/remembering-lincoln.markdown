@@ -7,7 +7,7 @@ date:       2015-04-19
 contact:    Michael Tedeschi
 
 awards:
-    - "images/awards/icon-muse-2016.svg"
+    - "images/awards/award-muse-2016.svg"
 
 client:
     name:       "Ford's Theatre"

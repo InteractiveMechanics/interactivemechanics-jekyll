@@ -11,6 +11,10 @@ client:
     logo:       "/images/logos/logo-esp.svg"
     sector:     Arts & Culture
 
+awards:
+    - "images/awards/award-muse-2017.svg"
+    - "images/awards/award-aam-2017.svg"
+
 technology:
     - HTML5
     - JavaScript

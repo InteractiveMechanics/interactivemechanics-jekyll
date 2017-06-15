@@ -25,6 +25,15 @@
     type:       "Webinar"
     cost:       "FREE"
 
+  - title:      "Creating Effective Personas"
+    url:        "http://interactivemech.enterthemeeting.com/m/DHMYNVMC"
+    image:      "/images/uploads/workshop-effective-personas.jpg"
+    color:      "#C71521"
+    date:       "Jul 18, 2017"
+    time:       "3:00PM"
+    type:       "Webinar"
+    cost:       "FREE"
+
   - title:      "Open Office Hours at Corzo Center"
     url:        "http://corzocenter.uarts.edu/programs/consulting"
     image:      "/images/uploads/corzo-center-thumb.jpg"
