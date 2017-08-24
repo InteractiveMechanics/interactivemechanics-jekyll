@@ -4,6 +4,25 @@
     height: 451px;
     border-bottom: 1px solid white;
     overflow: hidden;
+
+    &.inverse {
+        .staff-container {
+            h2 {
+                color: white;
+                
+                small {
+                    color: $gold;
+                }
+            }
+            p {
+                color: white;
+
+                a {
+                    color: $gold;
+                }
+            }
+        }
+    }
     
     a { color: $darkblue; }
     img {

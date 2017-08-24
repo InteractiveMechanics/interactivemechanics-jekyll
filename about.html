@@ -60,7 +60,7 @@ nextpage:
 
 {% for staff in site.data.staff %}
     {% if staff.image %}
-        <section class="staff {% cycle 'odd', 'even' %}" style="background-color: {{ staff.color }};">
+        <section class="staff {% cycle 'odd', 'even' %} {% if staff.inverse %}inverse{% endif %}" style="background-color: {{ staff.color }};">
             <img src="{{ staff.image }}" alt="{{ staff.name }}, {{ staff.title }}" />
             <div class="staff-container">
                 <h2>{{ staff.name }} <small>{{ staff.title }}</small></h2>

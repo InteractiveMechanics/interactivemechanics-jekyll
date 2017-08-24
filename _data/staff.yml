@@ -58,6 +58,17 @@
         url:    https://twitter.com/amberastronaut
         handle: '@amberastronaut'
 
+  - name:       LaNeshe Miller-White
+    title:      Marketing Manager
+    color:      '#6F7571'
+    inverse:    true
+    bio:        "LaNeshe Miller-White is a graduate of Temple University's School of Communications and Theatre. She previously worked as the Marketing Manager for the Painted Bride Art Center and has many years of arts marketing experience. She is also the co-founder and producer of Theatre in the X. She has a passion for art for social change and providing art access to non-traditional audiences. LaNeshe specializes in social media, blogging, and influencer marketing."
+    thumb:      '/images/staff/thumb_miller.jpg'
+    image:      '/images/staff/large_miller.jpg'
+    twitter:    
+        url:    https://twitter.com/nesheaholic
+        handle: '@nesheaholic'
+
   - name:       Ebonie Butler
     title:      '2016 Fellow'
     thumb:      '/images/staff/thumb_butler.jpg'

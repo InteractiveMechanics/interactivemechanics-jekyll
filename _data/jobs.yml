@@ -28,27 +28,24 @@
 #     salary:     'Salary negotiable ($40,000-50,000) and commensurate with experience. Benefits include flexible hours, unlimited paid time off, health and dental insurance, public transit reimbursement, education and museum stipends, and snacks.'
 
 
-#   - title:      'Lead Developer'
+#   - title:      'Interactive Developer'
 #     subtitle:   'Full-time in Philadelphia'
-#     link:       'https://interactive-mechanics.forms.fm/lead-developer'
-#     process:     "Applications close on Feb 26, 2017. We’ll review all applications by March 1, at which point we’ll contact three applicants to schedule interviews (between March 13 and March 24), and we’ll share a technical challenge to be completed before your interview. We’ll make an offer late March for a May 1 start date. This schedule is of course subject to change, but it’s what we’re aiming for."
-#     body:       "We’re looking for a supportive and responsible lead developer to work with our team full-time (32-40 hours/week) building our digital projects and managing our technical staff. We’re aiming for a start date of May 1.<br><br>
-#                 You’ll lead our development team to build interactive digital projects for web, mobile, and other systems using a wide range of technologies. You’ll be responsible for quality assurance on deliverables, for ensuring that project technical plans are carried out as agreed upon with the client, for managing project installations, and for ensuring that we’re meeting our overall technical goals as specified in our annual plan.<br><br>
-#                 You’ll supervise our Senior UI Engineer and our UX Developer, nurturing an appreciation for best practices through code reviews, pair programming, and regular meetings. You will report to the Creative Director.<br><br>
-#                 As part of project proposals and discovery phases, you’ll work with our Project Manager to create technical plans that consider each client’s and project’s needs, and you’ll support client development reviews. We have a collaborative process for both internal and external work, so you will work closely with other members of our team as well.<br><br>
-#                 This role requires occasional travel for client meetings."
+#     link:       'https://interactive-mechanics.forms.fm/interactive-developer-3'
+#     process:     "Applications close on July 16, and we aim to respond to all applicants in early August. We rely on blind application reviews to combat unconscious bias and support inclusive hiring."
+#     body:       "We’re looking for a detail-oriented and communicative Interactive Developer to work with our team full-time (32-40 hours/week) building our digital projects. We’re aiming for a start date of September 25.
+# 
+#             <br><br>You’ll work on our development team to build interactive digital projects for web, mobile, exhibits, and other systems using a wide range of technologies. You will translate wireframes, storyboards, and design treatments into functional prototypes and final deliverables. You’ll develop functional specifications to outline all project functions and features for implementation. You will work with our Senior UI Engineer and UX Developer to conduct code reviews and share best practices. You’ll be involved in our quality assurance for deliverables, project deployments and installations, and in conducting on-going maintenance on your projects. You will also be involved in proposal technical planning with our Project Manager, Director of Strategic Initiatives, Creative Director, and other staff. We have a collaborative process for both internal and external work, so you will work closely with all members of our team. You will report to the Creative Director. This role requires occasional travel for client meetings."
 #     musthave:
-#       - skill:  'Experience building interactive applications and websites, with versatile technology capabilities. We expect you to have advanced capabilities with at least two of the following: JavaScript, PHP, Drupal, WordPress, Objective-C, Swift, Java, C++, or C#. Other technologies we value include HTML, CSS, Unity, Sass, Raspberry Pi, Particle Photon, Arduino, and Git.'
+#       - skill:  'Experience building interactive applications and websites, with versatile technology capabilities, including advanced skills in at least two of the following: JavaScript, PHP, Objective-C, Swift, Java, C++, or C#. Other technologies we value include HTML, CSS, Sass, Unity, Drupal, WordPress, Bootstrap, WebGL, Canvas, Raspberry Pi, Arduino, and Git.'
 #       - skill:  'Deep understanding of coding standards and ability to communicate best practices'
-#       - skill:  'Comfort developing project technical plans and functional specifications'
 #       - skill:  'Strong time management skills and ability to manage multiple timelines/deadlines for simultaneous client projects'
 #       - skill:  'Strong written and verbal communication for client and coworker communication'
 #       - skill:  '3+ years of relevant development experience'
-#       - skill:  '2+ years of experience managing and mentoring technical staff'
 #     nicetohave:
 #       - skill:  'Excited to grow and develop new skills in design or technology'
 #       - skill:  'Passionate about arts, culture, museums, and education'
+#       - skill:  'Experience developing project technical plans and functional specifications'
 #       - skill:  'Interested in presenting on our projects at regional and national events'
-#       - skill:  'Interested in systems administration or devops, or hardware, like microcontrollers'
+#       - skill:  'Interested in systems administration or devops'
 #       - skill:  'Interested in working with a small, close-knit team in an agency environment'
-#     salary:     'Salary negotiable ($65,000–$75,000) and commensurate with experience. Benefits include flexible hours, unlimited paid time off, health and dental insurance, public transit reimbursement, education and museum stipends, and snacks.'
+#     salary:     'Salary negotiable ($60,000–$70,000) and commensurate with experience. Benefits include flexible hours, unlimited paid time off, health and dental insurance, public transit reimbursement, education and museum stipends, and snacks.'
