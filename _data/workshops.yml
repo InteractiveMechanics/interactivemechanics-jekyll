@@ -16,15 +16,6 @@
 #     type:       "Webinar"
 #     cost:       "FREE"
 
-  - title:      "Watch & Talk: Getting Started with Employee Onboarding"
-    url:        "https://docs.google.com/forms/d/e/1FAIpQLSdLKabpLPZJO8B79ERrwCy99_HP6BRQj_rrm8XO-3J8CS5qbA/viewform"
-    image:      "/images/uploads/workshop-watch-talk-employees.png"
-    color:      "#C71521"
-    date:       "Sept 14, 2017"
-    time:       "2:00PM"
-    type:       "Watch & Talk"
-    cost:       "FREE"
-
   - title:      "Website Maintenance for Arts & Culture"
     url:        "http://interactivemech.enterthemeeting.com/m/RYMDEEBB"
     image:      "/images/uploads/workshop-web-maintenance.jpg"
