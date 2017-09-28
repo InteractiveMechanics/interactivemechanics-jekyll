@@ -1,7 +1,7 @@
 ---
 layout:     work
 title:      "Fairmount Water Works Mussel Hatchery Interactives"
-thumb:      "/images/uploads/wordpress-restapi-thumb.jpg"
+thumb:      "/images/uploads/mussel-hatchery-thumb.jpg"
 color:      a3d265
 date:       2017-09-30
 contact:    LaNeshe Miller-White
@@ -33,9 +33,9 @@ summary: |
 
 about:
     title:          About the Project
-    image:          "/images/uploads/pec-about.jpg"
+    image:          "/images/uploads/mussel-hatchery-intro.jpg"
     body: |
-        The Fairmount Water Works is one of Philadelphia’s landmark historical and educational institutions. We worked with them previously to create a Digital Activity Guide to educate students on clean water stewardship and relationship between Philadelphians and their watershed. For this project Fairmount Water Works collaborated with the Delaware Estuary and Academy of Natural Science at Drexel University to develop a living science laboratory about the freshwater mussel. 
+        The Fairmount Water Works is one of Philadelphia’s landmark historical and educational institutions. We worked with them previously to create a [Digital Activity Guide] (http://interactivemechanics.com/work/digital-activity-guides/) to educate students on clean water stewardship and relationship between Philadelphians and their watershed. For this project Fairmount Water Works collaborated with the Delaware Estuary and Academy of Natural Science at Drexel University to develop a living science laboratory about the freshwater mussel. 
 
         This new exhibit space provides visitors with an introduction to the mussel and its ecological impact on local waterways, with a live mussel hatchery, art installations, interactive art and science exploration stations, and digital interactive components. 
 
@@ -43,14 +43,14 @@ about:
 process:
     title:          User Testing
     images:
-        - image:    "/images/uploads/pec-screen-04.jpg"
-          alt:      West Philly History Map Screenshot
-        - image:    "/images/uploads/pec-screen-02.jpg"
-          alt:      West Philly History Map Screenshot
-        - image:    "/images/uploads/pec-screen-03.jpg"
-          alt:      West Philly History Map Screenshot
-        - image:    "/images/uploads/pec-screen-01.jpg"
-          alt:      West Philly History Map Screenshot
+        - image:    "/images/uploads/mussel-hatchery-usertesting.jpg"
+          alt:      Mussel Hatchery Interactive User Testing
+        - image:    "/images/uploads/mussel-hatchery-1.jpg"
+          alt:      Mussel Hatchery Interactive
+        - image:    "/images/uploads/mussel-hatchery-2.jpg"
+          alt:      Mussel Hatchery Interactive
+        - image:    "/images/uploads/mussel-hatchery-3.jpg"
+          alt:      Mussel Hatchery Interactive
 
     body: |
         Midway through the process we conducted user testing on-site with middle school students from Fairmount Water Works’ Project Flow initiative, a summer program for the interdisciplinary exploration of water. Each student was given a designated amount of time to explore each interactive and then everyone came together for a group discussion.  We learned that users were inclined to hurriedly tap on various places on the interactive screens, so we added in animated bubbles and zoom effects on tap so that the interactive responded to user inclinations. We also learned that users expected to be able to tap text to get more information, so we added additional content such as definitions when a keyword was tapped. 
