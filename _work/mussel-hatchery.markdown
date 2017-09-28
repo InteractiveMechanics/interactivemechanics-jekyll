@@ -3,40 +3,45 @@ layout:     work
 title:      "Fairmount Water Works Mussel Hatchery Interactives"
 thumb:      "/images/uploads/wordpress-restapi-thumb.jpg"
 color:      a3d265
-date:       2017-04-10
-contact:    Michael Tedeschi
+date:       2017-09-30
+contact:    LaNeshe Miller-White
 
 client:
-    name:       "People's Emergency Center"
+    name:       "Habitheque for Fairmount Water Works"
     sector:     Arts & Culture
     link:   
-        url:    "http://westphillyhistory.com/"
-        title:  View the website
+        url:    "http://fairmountwaterworks.org/freshwater-mussel-hatchery/"
+        title:  Learn about the initiative
 
 technology:
-    - Wordpress CMS & REST API
-    - Mapbox
-    - Leaflet
+    - Unity
+    - Visual Studio
+    - Javascript
+    - CSS animations
+    - Adobe Animate
 
-services:       Web Design & Development
+services:       Interactive design & development
 
 quote:
-    - name:       Megan Lemuir
-      title:      People's Emergency Center
+    - name:       Karen Young
+      title:      Fairmount Water Works
       body: |
-          I very much enjoyed working with the team on this project. Their thoroughness really aided our process and the end product is extremely useful and is able to be continually worked with by our team and the neighborhood.
+          Interactive Mechanics was able to synthesize a tremendous amount of educational information and turn all that information into something fun and engaging for our visitors!
 
 summary: |
-    People’s Emergency Center in West Philadelphia wanted to capture the area’s rich history with the help of neighborhood residents. We created The West Philadelphia History Map as an online public history tool for the community to archive their knowledge and to preserve the area’s unique identity as it has evolved over time.
+    The Mussel Hatchery hopes to change freshwater mussels’ endangered status by breeding mussels and educating the public on how these creatures can improve the health of drinking water. We created three digital interactives to provide an engaging and educational way to explore the mussel and the other inhabitants of the Delaware River. 
 
 about:
     title:          About the Project
     image:          "/images/uploads/pec-about.jpg"
     body: |
-        PEC, in partnership with the Islamic Cultural Preservation and Information Council, hosts regular community meetings to gather oral histories and materials from West Philly residents for preservation and presentation online. We worked with PEC to structure these stories, categorize them by topic, and present them in a digital map, tying them together for view through social, political, and geographic lenses. The map provides both exploratory and guided experiences through four centuries from the early native inhabitants of the area, to the civil rights movements of the 1960s, to today.
+        The Fairmount Water Works is one of Philadelphia’s landmark historical and educational institutions. We worked with them previously to create a Digital Activity Guide to educate students on clean water stewardship and relationship between Philadelphians and their watershed. For this project Fairmount Water Works collaborated with the Delaware Estuary and Academy of Natural Science at Drexel University to develop a living science laboratory about the freshwater mussel. 
+
+        This new exhibit space provides visitors with an introduction to the mussel and its ecological impact on local waterways, with a live mussel hatchery, art installations, interactive art and science exploration stations, and digital interactive components. 
+
 
 process:
-    title:          Content Driven Design
+    title:          User Testing
     images:
         - image:    "/images/uploads/pec-screen-04.jpg"
           alt:      West Philly History Map Screenshot
@@ -48,21 +53,18 @@ process:
           alt:      West Philly History Map Screenshot
 
     body: |
-        We built a mobile-friendly custom base map with Mapbox, so that we could match the visual design of their existing print materials, and highlight the main arteries that run through West Philly, rather than including every highway marker and street label.
+        Midway through the process we conducted user testing on-site with middle school students from Fairmount Water Works’ Project Flow initiative, a summer program for the interdisciplinary exploration of water. Each student was given a designated amount of time to explore each interactive and then everyone came together for a group discussion.  We learned that users were inclined to hurriedly tap on various places on the interactive screens, so we added in animated bubbles and zoom effects on tap so that the interactive responded to user inclinations. We also learned that users expected to be able to tap text to get more information, so we added additional content such as definitions when a keyword was tapped. 
         
-        We worked closely with PEC on content strategy, learning the stories behind core locations to determine the most relevant content fields for map markers. Using Leaflet, we designed a series of map markers with this tailored content along with custom controls, so users can filter by time period or location type, such as arts and culture or infrastructure.
-        
-        The mobile experience was particularly important, as PEC uses this map in community meetings across the neighborhood, and encourages its use for neighborhood walking tours. In addition to our standard responsive design, the mobile version features its own unique filtering controls designed especially for smaller viewports.
-        
-        ##### An Accessibility-Centered Experience
-        User experience was central to PEC. The West Philadelphia History Map is a single page map application, rather than a multilayered website, so users can focus on the visual map and its interactivity. It was also key to maintain a straightforward administrative experience, so that PEC staff could quickly and easily update content. We balanced these needs by using the Wordpress REST API to integrate a content management system that is streamlined and lightweight.
-        
-        PEC’s eventual goal is to invite community members, who have varying technical comfort levels, to enter their histories directly. We created a simply structured and clearly labeled Wordpress template, including required and optional fields, for people to easily submit their own narratives and images within a consistent framework. We provided detailed documentation and training for PEC staff, and we built the site to accommodate various permissions levels in the future.
+        ##### The Mighty Mussel Interactive
+        We worked with Habithèque Inc., cultural producers with expertise in content development, exhibition design, and creative visioning and direction. We used javascript, CSS animations, and Adobe Animate to create three digital pieces:
 
-outcome:
-    title:          An Evolving Digital Archive
-    body: |
-        The West Philadelphia History Map is an evolving digital document, for the community and by the community. It was built to facilitate collaboration between neighbors, to preserve the area’s multifaceted history, and to sustain the community's cultural identity. 
+        The Mighty Mussel interactive features animations on a 32 inch touchscreen that teach the lifecycle and filtration systems of the mussel. We collaborated with scientists and education interpretation experts to make our animations both accurate and interesting. They provided feedback to make sure we were properly displaying the lifecycle, and that our animations were scientifically sound. We used layers of transparency and sequential animation to showcase mussel anatomy and functions, such as the reproductive process.
+
+        The river character flashcard interactive allows users to learn more about the animals present on a corresponding art wall. 
+
+        A personality quiz helps visitors identify which of 27 river characters they most relate to. To encourage users to complete this experience we created a rising water level indicator s so users knew how close they were to the end of the activity. 
+
+        Visitors have expressed they enjoyed the interactives’ highly visual and animated nature. 
 
 ---
 
