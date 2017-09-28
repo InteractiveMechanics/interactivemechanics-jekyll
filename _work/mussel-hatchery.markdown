@@ -1,60 +1,68 @@
-
 ---
 layout:     work
-title:      "Fairmount Water Works Mussel Hatchery"
-thumb:      "/images/uploads/pma-thumb.jpg"
-color:      CEAF70
-date:       2017-09-18
-contact:    LaNeshe Miller-White
+title:      "Fairmount Water Works Mussel Hatchery Interactives"
+thumb:      "/images/uploads/wordpress-restapi-thumb.jpg"
+color:      a3d265
+date:       2017-04-10
+contact:    Michael Tedeschi
 
 client:
-    name:       "Fairmount Water Works"
-    logo:       "/images/logos/logo-pma.svg"
+    name:       "People's Emergency Center"
     sector:     Arts & Culture
+    link:   
+        url:    "http://westphillyhistory.com/"
+        title:  View the website
 
 technology:
-    - HTML5
-    - WebGL
-    - Jekyll
+    - Wordpress CMS & REST API
+    - Mapbox
+    - Leaflet
 
-services:       Interactive Exhibit
+services:       Web Design & Development
+
+quote:
+    - name:       Megan Lemuir
+      title:      People's Emergency Center
+      body: |
+          I very much enjoyed working with the team on this project. Their thoroughness really aided our process and the end product is extremely useful and is able to be continually worked with by our team and the neighborhood.
 
 summary: |
-    As part of the re-installation of "Drawing Room from a Town House: 901 Fifth Avenue, New York City," the Philadelphia Museum of Art reached out to us to create a pair of high resolution digital interactives to allow visitors to take a closer look at 66 of the room’s objects.
+    People’s Emergency Center in West Philadelphia wanted to capture the area’s rich history with the help of neighborhood residents. We created The West Philadelphia History Map as an online public history tool for the community to archive their knowledge and to preserve the area’s unique identity as it has evolved over time.
 
 about:
-    title:          "About the Project"
-    image:          "/images/uploads/pma-about.jpg"
+    title:          About the Project
+    image:          "/images/uploads/pec-about.jpg"
     body: |
-        The re-installation focused on a complete recreation of Eleanore Elkins Widener Rice's Gilded Age drawing room as designed by the firm of Maison Carlhian in 1923. The PMA wanted interactives to allow visitors to delve into the context of the time period and this particular family's story, and to give them a closer look at the collection of eighteenth-century French furniture and decorative arts, including objects from Louis XVI and Marie Antoinette.
+        PEC, in partnership with the Islamic Cultural Preservation and Information Council, hosts regular community meetings to gather oral histories and materials from West Philly residents for preservation and presentation online. We worked with PEC to structure these stories, categorize them by topic, and present them in a digital map, tying them together for view through social, political, and geographic lenses. The map provides both exploratory and guided experiences through four centuries from the early native inhabitants of the area, to the civil rights movements of the 1960s, to today.
 
 process:
-    title:          Kid-Friendly & Accessible
+    title:          Content Driven Design
     images:
-        - video:    "https://player.vimeo.com/video/173960064"
-        - image:    "/images/uploads/pma-screen-01.jpg"
-          alt:      Philadelphia Museum of Art's Rice Room Interactives
-        - image:    "/images/uploads/pma-screen-02.jpg"
-          alt:      Philadelphia Museum of Art's Rice Room Interactives
-        - image:    "/images/uploads/pma-screen-03.jpg"
-          alt:      Philadelphia Museum of Art's Rice Room Interactives
-        - image:    "/images/uploads/pma-screen-04.jpg"
-          alt:      Philadelphia Museum of Art's Rice Room Interactives
+        - image:    "/images/uploads/pec-screen-04.jpg"
+          alt:      West Philly History Map Screenshot
+        - image:    "/images/uploads/pec-screen-02.jpg"
+          alt:      West Philly History Map Screenshot
+        - image:    "/images/uploads/pec-screen-03.jpg"
+          alt:      West Philly History Map Screenshot
+        - image:    "/images/uploads/pec-screen-01.jpg"
+          alt:      West Philly History Map Screenshot
 
     body: |
-        We worked directly with the digital, education, and curatorial teams in a hands-on and highly collaborative process. We helped refine text in collaboration with their content specialist and curator, to best fit it into the existing structure and to draw users in. We tested animation and interactivity through early prototypes, and worked through six rounds of wireframes and three rounds of design revisions in under two months to rapidly incorporate feedback throughout the project timeline. Our on-site development sessions gave PMA staff direct, immediate input on refinements and quality assurance, improving user experience throughout the process. We used [Slack](https://slack.com/), an online team communication tool, as a way to encourage more casual, frequent conversation, as well as for small file storage so that everything was in one place.
-
-        ##### Interactive and Accessible
-
-        Using the 360° panorama, users can drag to explore the room from multiple angles, or pinch and zoom to see objects in the distance. They can zoom in and out on individual objects, drag to spin an object and view it from different angles, and explore contextual imagery related to the object and its history. We also replicated the cabinets in the space as interactive elements, so that visitors can open them and examine otherwise hidden objects in detail.
-
-        The PMA’s period rooms tend to draw older visitors, so our design centered on accessibility, including a text size control to enlarge text throughout the interface. Using feedback from user testing, we added instructional icons to help explain the various touch controls for unfamiliar audiences.
+        We built a mobile-friendly custom base map with Mapbox, so that we could match the visual design of their existing print materials, and highlight the main arteries that run through West Philly, rather than including every highway marker and street label.
+        
+        We worked closely with PEC on content strategy, learning the stories behind core locations to determine the most relevant content fields for map markers. Using Leaflet, we designed a series of map markers with this tailored content along with custom controls, so users can filter by time period or location type, such as arts and culture or infrastructure.
+        
+        The mobile experience was particularly important, as PEC uses this map in community meetings across the neighborhood, and encourages its use for neighborhood walking tours. In addition to our standard responsive design, the mobile version features its own unique filtering controls designed especially for smaller viewports.
+        
+        ##### An Accessibility-Centered Experience
+        User experience was central to PEC. The West Philadelphia History Map is a single page map application, rather than a multilayered website, so users can focus on the visual map and its interactivity. It was also key to maintain a straightforward administrative experience, so that PEC staff could quickly and easily update content. We balanced these needs by using the Wordpress REST API to integrate a content management system that is streamlined and lightweight.
+        
+        PEC’s eventual goal is to invite community members, who have varying technical comfort levels, to enter their histories directly. We created a simply structured and clearly labeled Wordpress template, including required and optional fields, for people to easily submit their own narratives and images within a consistent framework. We provided detailed documentation and training for PEC staff, and we built the site to accommodate various permissions levels in the future.
 
 outcome:
-    title:          Forward Thinking
+    title:          An Evolving Digital Archive
     body: |
-        We built the final interactives as a web-based HTML5 experience with an easy-to-update data management system using Jekyll, and installed them on 20” SHARP LED multitouch displays in the gallery space.  The PMA wanted to work towards integrating a content management system (CMS) in the future, allowing for content updates without hard coding, so we designed with flexibility in mind. We used a data structure with JSON that allows for content changes with minimal developer support, and that also allows for integration of the CMS of their choice, so that the interactives can be used in other period rooms as well.
-
+        The West Philadelphia History Map is an evolving digital document, for the community and by the community. It was built to facilitate collaboration between neighbors, to preserve the area’s multifaceted history, and to sustain the community's cultural identity. 
 
 ---
 
