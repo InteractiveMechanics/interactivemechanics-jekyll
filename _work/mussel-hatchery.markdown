@@ -41,7 +41,7 @@ about:
 process:
     title:          User Testing
     images:
-        - image:    "/images/uploads/mussel-hatchery-usertesting.jpg"
+        - image:    "/images/uploads/mussel-hatchery-4.jpg"
           alt:      Mussel Hatchery Interactive User Testing
         - image:    "/images/uploads/mussel-hatchery-1.jpg"
           alt:      Mussel Hatchery Interactive
@@ -58,7 +58,7 @@ process:
 
         The Mighty Mussel interactive features animations on a 32 inch touchscreen that teach the lifecycle and filtration systems of the mussel. We collaborated with scientists and education interpretation experts to make our animations both accurate and interesting. They provided feedback to make sure we were properly displaying the lifecycle, and that our animations were scientifically sound. We used layers of transparency and sequential animation to showcase mussel anatomy and functions, such as the reproductive process.
 
-        The river character flashcard interactive allows users to learn more about the animals present on a corresponding art wall created by artist, Stacey Levy. To represent each of the river characters from the glass etchings, we illustrated and animated each character as they swim, fly, or scurry across the screen.
+        The river character flashcard interactive allows users to learn more about the animals present on a corresponding art wall created by artist, Stacy Levy. To represent each of the river characters from the glass etchings, we illustrated and animated each character as they swim, fly, or scurry across the screen.
 
         A personality quiz helps visitors identify which of 27 river characters they most relate to. To encourage users to complete this experience we created a rising water level indicator so users knew how close they were to the end of the activity.
 
