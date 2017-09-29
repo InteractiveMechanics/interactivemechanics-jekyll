@@ -16,15 +16,6 @@
 #     type:       "Webinar"
 #     cost:       "FREE"
 
-  - title:      "Website Maintenance for Arts & Culture"
-    url:        "http://interactivemech.enterthemeeting.com/m/RYMDEEBB"
-    image:      "/images/uploads/workshop-web-maintenance.jpg"
-    color:      "#C71521"
-    date:       "Sept 26, 2017"
-    time:       "3:00PM"
-    type:       "Webinar"
-    cost:       "FREE"
-
   - title:      "Digital Projects for Arts & Culture"
     url:        "http://interactivemech.enterthemeeting.com/m/GCRQTHKG"
     image:      "/images/uploads/workshop-digital-projects.png"
@@ -32,6 +23,15 @@
     date:       "Oct 10, 2017"
     time:       "3:00PM"
     type:       "Webinar"
+    cost:       "FREE"
+
+  - title:      "NAME Fall Mixer in Philadelphia"
+    url:        "mailto:namemidatlantic@gmail.com"
+    image:      "/images/uploads/workshop-name-happy-hour.png"
+    color:      "#C71521"
+    date:       "Oct 10, 2017"
+    time:       "6:00PM"
+    type:       "Happy Hour"
     cost:       "FREE"
 
   - title:      "Open Office Hours at Corzo Center"

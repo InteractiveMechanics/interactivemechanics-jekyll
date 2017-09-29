@@ -43,39 +43,8 @@ callout:
         </div>
     </div>
 </section>
-<section class="contact">
+<section class="gray">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                <div class="alert alert-success hidden"><strong>Thanks for contacting us!</strong> Someone will reach out to you shortly.</div>
-                <div class="alert alert-danger hidden"><strong>Uh oh!</strong> Something went wrong. Reach out to us directly at hello@interactivemechanics.com!</div>
-                <form id="form" method="post" action="/contact.php">
-                    <label for="name">Full Name *</label>
-                    <input class="form-control input-lg" type="text" name="name" id="name" placeholder="John Smith" required />
-                
-                    <label for="email" required>Email Address *</label>
-                    <input class="form-control input-lg" type="email" name="email" id="email" placeholder="johnsmith@mycompany.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required />
-                
-                    <label for="topic">I'd like to talk about...</label>
-                    <select class="form-control input-lg" name="topic" id="topic">
-                        <option value="New Projects">       Our exciting new project</option>
-                        <option value="Partnerships">       Partnership opportunities</option>
-                        <option value="Careers">            Joining your team</option>
-                        <option value="General Inquiry">    Something else</option>
-                    </select>
-
-                    <label for="message">Message *</label>
-                    <textarea class="form-control input-lg" name="message" id="message" required></textarea>
-                
-                    {% include inc_signup.html %}
-
-                    <div id="recaptcha_div"></div>
-                    <div id="notice"></div>
-                    <div class="text-center">
-                        <button class="btn btn-default" type="submit">Get in touch {% include icons/icon_arrow_right.html %}</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+        {% include inc_signup.html %}
     </div>
 </section>
