@@ -25,7 +25,7 @@ about:
     title:          "Providing a New Learning Experience"
     image:          "/images/uploads/fww-digital-activity-about.jpg"
     body: |
-        Before our collaboration, the Water Works used a paper-based field guide and activity book to direct middle and high school students through their exhibits and learning directives. One of the Water Works' core values is providing visitors with experiential learning opportunities, and the they saw an opportunity for a better visitor experience. We used the field guide as a starting point, creating digital versions of  the original lessons and designing new games around the Water Works' educational goals. We then assembled all the activities in an interactive app, built in HTML5 and JavaScript.
+        Before our collaboration, the Water Works used a paper-based field guide and activity book to direct middle and high school students through their exhibits and learning directives. One of the Water Works' core values is providing visitors with experiential learning opportunities, and the they saw an opportunity for a better visitor experience. We worked with Habith&egrave;que Inc., cultural producers with expertise in content development, exhibition design, and creative visioning and direction, and used the field guide as a starting point, creating digital versions of  the original lessons and designing new games around the Water Works' educational goals. We then assembled all the activities in an interactive app, built in HTML5 and JavaScript.
 
 process:
     title:          "Gamification and Critical Thinking"
