@@ -33,6 +33,15 @@
     time:       "6:00PM"
     type:       "Happy Hour"
     cost:       "FREE"
+    
+    - title:      "Telling Compelling Stories via Digital Experiences"
+    url:        "http://interactivemech.enterthemeeting.com/m/BK4AG9FW "
+    image:      "/images/uploads/compellingstoriesthumb.png"
+    color:      "#C71521"
+    date:       "Nov 21, 2017"
+    time:       "3:00PM"
+    type:       "Webinar"
+    cost:       "FREE"
 
   - title:      "Open Office Hours at Corzo Center"
     url:        "http://corzocenter.uarts.edu/consultations"
