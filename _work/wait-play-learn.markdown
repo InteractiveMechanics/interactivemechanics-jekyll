@@ -45,17 +45,11 @@ process:
 
         We had our challenges. The technology is new and not well-documented, which led us to develop many of the required features from scratch, and in a very short timeframe, with less than three months to design, develop and install the first two interactives. But we’re not complaining: our end result was the creation of several fun and motivational games that get kids moving and learning.
         
-        quote:
-    - name:       
-      title:      
-      body: |
-          One participant, Alexa, tested the games during her physical therapy—she was shy, quiet, and unable to walk by herself. At the end of the testing session, her mood improved and she felt confident enough to show us that she could walk by herself (to her grandmother’s delight).
-
-
-outcome:
-    title:          Learning & Sharing
-    body: |
-        Since we learned so much on this project, we documented our development process to share via [our blog](http://interactivemechanics.com/news/2016/06/what-working-for-chop-taught-us/). And since we had so much fun, we made several games reusable, with the hope of implementing them in other spaces in the future. 
+    quote:
+        - name:       
+          title:      
+          body: |
+            One participant, Alexa, tested the games during her physical therapy—she was shy, quiet, and unable to walk by herself. At the end of the testing session, her mood improved and she felt confident enough to show us that she could walk by herself (to her grandmother’s delight).
 
 outcome:
     title:          Continuing Our Work
