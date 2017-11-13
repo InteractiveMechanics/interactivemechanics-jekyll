@@ -17,11 +17,20 @@
 #     cost:       "FREE"
     
   - title:      "Telling Compelling Stories via Digital Experiences"
-    url:        "http://interactivemech.enterthemeeting.com/m/BK4AG9FW "
+    url:        "http://interactivemech.enterthemeeting.com/m/BK4AG9FW"
     image:      "/images/uploads/compellingstoriesthumb.png"
     color:      "#C71521"
     date:       "Nov 21, 2017"
     time:       "3:00PM"
+    type:       "Webinar"
+    cost:       "FREE"
+
+  - title:      "Designing for Outrage: Inviting Disruption into Exhibitions"
+    url:        "http://www.aam-us.org/resources/online-programs/designing-for-outrage-inviting-disruption-into-exhibitions"
+    image:      "/images/uploads/aam-watch-talk-dec.png"
+    color:      "#C71521"
+    date:       "Dec 14, 2017"
+    time:       "2:00PM"
     type:       "Webinar"
     cost:       "FREE"
 
