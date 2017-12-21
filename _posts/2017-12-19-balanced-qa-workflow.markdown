@@ -4,7 +4,7 @@ title:      "The Five Pillars of a Balanced Quality Assurance Workflow for Small
 date:       2017-12-19
 author:     Christina Deemer
 category:   Tools and Tech
-thumb:      "/images/uploads/qa-workflow-1.jpg.jpg"
+thumb:      "/images/uploads/qa-workflow-1.jpg"
 summary: |
     This content was originally presented as “Level Up Your QA Workflow: An Approach for Freelancers and Small Teams” at WordCamp Philly 2017.  This is a condensed version of the talk aimed at technical folks and project managers who work as freelancers or in small teams that don’t include dedicated QA pros.  
 ---
@@ -49,7 +49,7 @@ To ensure that there is time for QA, be sure to include it from the beginning, i
 
 In the context of QA, quality is defined as a component’s ability to satisfy needs. Without identifying those needs, time spent on QA is wasted.
 
-The most common way to identify needs for functional testing is through a requirement specifications document, which formally details a project’s capabilities, appearance, and interactions with users. [A lot](http://www.informit.com/articles/article.aspx?p=1152528&seqNum=4) has [been written](https://www.jamasoftware.com/blog/characteristics-of-excellent-requirements/] about the [characteristics](https://qracorp.com/write-clear-requirements-document/] of [good](https://www.smartsheet.com/software-requirements-specification-101) [requirements](http://www.processimpact.com/articles/qualreqs.html). 
+The most common way to identify needs for functional testing is through a requirement specifications document, which formally details a project’s capabilities, appearance, and interactions with users. [A lot](http://www.informit.com/articles/article.aspx?p=1152528&seqNum=4) has [been written](https://www.jamasoftware.com/blog/characteristics-of-excellent-requirements/) about the [characteristics](https://qracorp.com/write-clear-requirements-document/) of [good](https://www.smartsheet.com/software-requirements-specification-101) [requirements](http://www.processimpact.com/articles/qualreqs.html). 
 
 To set the standard for quality for other kinds of testing, you could use a [WCAG checklist](https://webaim.org/standards/wcag/checklist) to test accessibility, user-testing protocol to test usability, and design comps to test appearance.
 
