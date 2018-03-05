@@ -2,7 +2,7 @@
 layout:     post
 title:      "How to Conduct User Testing for a Digital Project"
 date:       2018-03-05
-author:     Mike Tedeschi
+author:     Michael Tedeschi
 category:   Process
 thumb:      "/images/uploads/2018-03-usertesting-thumb.jpg"
 summary: |
@@ -33,7 +33,7 @@ _Useful Phrases_
 	“Can you explain why you did that?”
 	“If you have to give this a letter grade, what would you rate it?”*
 
-![User Testing at Mighty Writers](2018-03-user-testing-2.jpg)
+![User Testing at Mighty Writers](/images/uploads/2018-03-user-testing-2.jpg)
 
 ### Common User Testing Questions
 
@@ -61,9 +61,9 @@ Consider what information will be most useful to improving your project. If you�
 Are you ready to plan your user testing? Download our [User Testing Preparation Checklist](http://learn.interactivemechanics.com/User%20Testing%20Resources/User%20Testing%20Preparation%20Checklist.pdf). 
 
 ### Further Resources about User Testing
-User Testing Explained - The Next Web
-https://thenextweb.com/creativity/2015/04/27/user-testing-explained
+User Testing Explained - The Next Web<br>
+[https://thenextweb.com/creativity/2015/04/27/user-testing-explained](https://thenextweb.com/creativity/2015/04/27/user-testing-explained)
 
-A Beginner’s Guide to Usability Testing - UX Mastery
-http://uxmastery.com/beginners-guide-to-usability-testing/
+A Beginner’s Guide to Usability Testing - UX Mastery <br>
+[http://uxmastery.com/beginners-guide-to-usability-testing/](http://uxmastery.com/beginners-guide-to-usability-testing/)
 
