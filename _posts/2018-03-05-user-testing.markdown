@@ -17,10 +17,10 @@ User testing is the key to ensure we’re building something people will enjoy a
 **Explain what you’re doing and make your participants feel comfortable**
 Be transparent and open about the process and interview. Use a [standardized protocol](http://learn.interactivemechanics.com/User%20Testing%20Resources/Sample%20User%20Testing%20Protocol.pdf) to introduce the testing session to your participants. Get to know them and make sure the participants understand that there is nothing on the line for them. Offer refreshments, and be thankful. 
 
-_Useful Phrases_
-*“We’re not testing you; we’re testing the system.”
-	“There are no right or wrong answers.”
-	“There is no ego involved here; we want to hear both positive and negative comments.”*
+<u>Useful Phrases</u><br>
+*“We’re not testing you; we’re testing the system.”*<br>
+*“There are no right or wrong answers.”*<br>
+*“There is no ego involved here; we want to hear both positive and negative comments.”*
 
 **Stay engaged!**
 Acknowledge and provide feedback to your participants as they ask questions or give feedback throughout the interview, but don’t help them along or try to explain how to use the system. It’s okay if they’re not able to solve a problem or accomplish a task—try to evaluate how to improve it.
@@ -28,10 +28,10 @@ Acknowledge and provide feedback to your participants as they ask questions or g
 **Ask for clarification**
 If you need to know more, ask the participant. This is your time to learn what you need to make the system better, so don’t hesitate to ask questions. When working with younger audiences this is especially important. During testing for the games for the National Museum of the American Indian, students were pretty shy at first to talk and share, so we had to keep a close eye on potential things that required conversation or elaboration. One specific example was watching one student ignore the floating icons on screen because they didn't know to click on them—without asking, we wouldn't have been able to understand why.
 
-_Useful Phrases_
-	*“Talk me through what happened there.”
-	“Can you explain why you did that?”
-	“If you have to give this a letter grade, what would you rate it?”*
+<u>Useful Phrases</u><br>
+*“Talk me through what happened there.”*<br>
+*“Can you explain why you did that?”*<br>
+*“If you have to give this a letter grade, what would you rate it?”*
 
 ![User Testing at Mighty Writers](/images/uploads/2018-03-user-testing-2.jpg)
 
