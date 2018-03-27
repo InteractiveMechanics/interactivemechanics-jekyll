@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "How to Make the Most of Google Analytics for Digital Interactives"
-date:       2018-03-23
+date:       2018-03-27
 author:     Michael Tedeschi
 category:   Process
 thumb:      "/images/uploads/2018-03-analytics-for-digital-thumb.png"
@@ -35,7 +35,7 @@ As you collect data, you’ll want to review it on a regular basis to look for t
 
 Analytics data is great for evaluating usability issues that visitors may encounter during their experience, as well as finding “unknowns” that you can test further through user testing. For instance, when working on the What Are Prisons For? interactive for Prisons Today, we found that individuals left the experience before the final pay-off by tracking the screens they interacted with. 
 
-![Page/Screen Tracking](/images/uploads/2018-03-analytics-for-digital3.png
+![Page/Screen Tracking](/images/uploads/2018-03-analytics-for-digital3.png)
 
 *Taken from seven days of sample data. There was a significant drop off in visitors at the end of the experience, right before the summary. We needed to understand why people were skipping this final step!*
 
