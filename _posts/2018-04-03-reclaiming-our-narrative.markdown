@@ -27,7 +27,7 @@ Fast forward to today, where I have founded an organization called [YallaPunk](h
 
 Community building definitely carries over to building a website with the community in mind, as the accessibility saying goes “nothing for us, without us.” The YallaPunk website is meant to be a resource for the community, a place where information about the event can be found but also a place where members of the community can gather and discuss different issues that face the community and create action plans to address these issues.
 
-![Rana Fayez](2018-04-reclaiming-our-narrative.jpg)
+![Rana Fayez](/images/uploads/2018-04-reclaiming-our-narrative.jpg)
 
 Last year’s pilot event took place throughout the Fishtown neighborhood of Philadelphia, specifically at Johnny Brenda’s, The Barbary, and the Icebox Theater Project space in the Crane Arts Building. Over 200 individuals came out from within the city and outside Philadelphia, which is great for a project that was planned and executed within four months. Comedy Central featured comedian Aron Kader headlined the comedy portion while bands like Bidet, City of Djinn, and Coherence flourished in the music programming. Panel discussions such as “What does it mean to be Queer and MENA?,” “Arab images in the media,” and “How to sincerely market your creative product.” This year, the intention is to give ourselves more lead time to produce a bigger and better event and build stronger ties between performers and the community. But this year, we plan on having a different website, as last year’s was a pilot.
 
