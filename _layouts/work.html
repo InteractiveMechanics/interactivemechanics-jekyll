@@ -17,6 +17,7 @@ layout:     default
                     <h2>{{ page.summary | markdownify | remove: '<p>' | remove: '</p>' }} {% include icons/icon_endnote.html %}</h2>
                 </div>
                 <div class="col-md-4">
+                    {% if page.client.logo OR page.client.link %}
                     <div class="callout">
                         {% if page.client.logo %}<img src="{{ page.client.logo }}" alt="{{ page.client.name }}" />{% endif %}
                         {% if page.client.link %}
@@ -24,6 +25,7 @@ layout:     default
                             <a href="{{ page.client.link.url }}" class="btn btn-default" target="_blank">{{ page.client.link.title }} {% include icons/icon_arrow_right.html %}</a>
                         {% endif %}
                     </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
