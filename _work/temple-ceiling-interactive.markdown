@@ -48,7 +48,7 @@ outcome:
     body: |
         During user testing, we learned that users didn't understand how to use the iPad to view the ceiling, so we created an animation to encourage people to lift the iPad above their heads to start the 3D ceiling view.
         
-        ![Temple Ceiling Instruction Gif](/images/uploads/PMA-Instructions.gif)
+        ![Temple Ceiling Instruction Gif](/images/uploads/PMA-TempleCeiling_instructionsMockUp_v02.gif)
         
         Visitors access the interactive on iPads in custom cases fabricated for easy holding, to support freedom to move around with the device. We mimicked the basic functionality of another interactive in the same wing, so that users don't have to learn a new interface. 
 
